@@ -27,8 +27,8 @@ class CollegeExtractionModel {
 
   Future<void> filterColleges() async{
     filteredColleges.clear();
-    print("https://mentyour.rushour0.repl.co/colleges?Name of Institution=${instituteSearchController.text}&Programme=${programmeSearchController.text}&Name of Discipline=${disciplineSearchController.text}");
-    var url = Uri.parse("https://mentyour.rushour0.repl.co/colleges?Name of Institution=${instituteSearchController.text}&Programme=${programmeSearchController.text}&Name of Discipline=${disciplineSearchController.text}");
+    print("https://NaksheKADAM.rushour0.repl.co/colleges?Name of Institution=${instituteSearchController.text}&Programme=${programmeSearchController.text}&Name of Discipline=${disciplineSearchController.text}");
+    var url = Uri.parse("https://NaksheKADAM.rushour0.repl.co/colleges?Name of Institution=${instituteSearchController.text}&Programme=${programmeSearchController.text}&Name of Discipline=${disciplineSearchController.text}");
     final response = await http.get(url);
     print("response : $response");
     if (response.statusCode == 200) {

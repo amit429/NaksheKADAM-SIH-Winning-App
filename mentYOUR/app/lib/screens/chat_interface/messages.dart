@@ -36,7 +36,7 @@ class MessagesPageState extends State<MessagesPage> {
           parentSet: setState,
         ),
         // Text(
-        //   'mentyour',
+        //   'MentYOUR',
         //   style: TextStyle(
         //     fontFamily: 'DM Sans',
         //     fontSize: screenWidth * 0.05,

@@ -42,7 +42,7 @@ class _ChatPageState extends State<ChatPage> {
                 // row has two child icon and text.
                 child: menuItem(
                   screenWidth,
-                  const Icon(
+                  Icon(
                     Icons.report,
                     color: Colors.red,
                   ),
@@ -58,7 +58,7 @@ class _ChatPageState extends State<ChatPage> {
                 // row has two child icon and text
                 child: menuItem(
                   screenWidth,
-                  const Icon(
+                  Icon(
                     Icons.call,
                     color: Colors.black,
                   ),
@@ -66,7 +66,7 @@ class _ChatPageState extends State<ChatPage> {
                   () async {
                     showAboutDialog(
                         context: context,
-                        children: [const Text("Helpline number: +91-9888888888")]);
+                        children: [Text("Helpline number: +91-9888888888")]);
                   },
                 ),
               ),
@@ -145,17 +145,17 @@ class _ChatPageState extends State<ChatPage> {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: const Text("Report"),
-          content: const Text("Report this counsellor?"),
+          title: Text("Report"),
+          content: Text("Report this counsellor?"),
           actions: <Widget>[
             ElevatedButton(
-              child: const Text("Cancel"),
+              child: Text("Cancel"),
               onPressed: () {
                 Navigator.of(context).pop();
               },
             ),
             ElevatedButton(
-              child: const Text("Report"),
+              child: Text("Report"),
               onPressed: () async {
                 String otherId = widget.room.users
                     .where((element) => element.id != getCurrentUserId())

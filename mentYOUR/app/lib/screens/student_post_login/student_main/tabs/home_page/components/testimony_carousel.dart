@@ -50,7 +50,7 @@ class _TestimonyCarouselSliderState extends State<TestimonyCarouselSlider> {
         "name": "John",
         "role": "tudent",
         "testimony":
-            "I got to know about mentyour from one of my friends. I was struggling with finding right resources for information regarding scholarships in india. mentyour became a one stop solution for me to look through various scholarships in india and  scholarships that are particularly beneficial for me. mentyour made that tedious process of researching throught various websites for relevant career / education related content very easy for me and my friends.",
+            "I got to know about MentYOUR from one of my friends. I was struggling with finding right resources for information regarding scholarships in india. MentYOUR became a one stop solution for me to look through various scholarships in india and  scholarships that are particularly beneficial for me. MentYOUR made that tedious process of researching throught various websites for relevant career / education related content very easy for me and my friends.",
       },
     ];
 

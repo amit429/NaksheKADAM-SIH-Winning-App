@@ -50,10 +50,10 @@ class _NotificationsPageState extends State<NotificationsPage> {
 }
 
 NotificationInfo notification = NotificationInfo(
-  title: 'mentyour',
+  title: 'MentYOUR',
   description:
-      'mentyour is a platform for students to get access to the best resources available in the field of engineering.',
+      'MentYOUR is a platform for students to get access to the best resources available in the field of engineering.',
   date: 'Today',
-  subject: 'mentyour',
+  subject: 'MentYOUR',
   read: false,
 );

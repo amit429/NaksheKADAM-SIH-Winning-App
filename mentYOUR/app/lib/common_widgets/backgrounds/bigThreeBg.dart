@@ -86,7 +86,7 @@ class BigThreeBG extends StatelessWidget {
                 decoration: const BoxDecoration(
                   // color: Colors.black,
                   image: DecorationImage(
-                    image: AssetImage('assets/images/mentyour.png'),
+                    image: AssetImage('assets/images/naksheKADAM.png'),
                     fit: BoxFit.fitWidth,
                   ),
                 ),

@@ -123,7 +123,7 @@ class _StudentMainPageState extends State<StudentMainPage>
           parentSet: setState,
         ),
         // Text(
-        //   'mentyour',
+        //   'MentYOUR',
         //   style: TextStyle(
         //     fontFamily: 'DM Sans',
         //     fontSize: screenWidth * 0.05,

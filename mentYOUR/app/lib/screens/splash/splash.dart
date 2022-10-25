@@ -90,7 +90,7 @@ class _SplashState extends State<Splash> with TickerProviderStateMixin {
             child: SizedBox(
               height: MediaQuery.of(context).size.width / 2,
               child: Lottie.network(
-                'https://mentyour.rushour0.repl.co/lottieJson',
+                'https://NaksheKADAM.rushour0.repl.co/lottieJson',
                 fit: BoxFit.contain,
                 controller: _controller,
                 onLoaded: (composition) {

@@ -99,7 +99,7 @@ class _MainPageState extends State<MainPage> with TickerProviderStateMixin {
           parentSet: setState,
         ),
         // Text(
-        //   'mentyour',
+        //   'MentYOUR',
         //   style: TextStyle(
         //     fontFamily: 'DM Sans',
         //     fontSize: screenWidth * 0.05,

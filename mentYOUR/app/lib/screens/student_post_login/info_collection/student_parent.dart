@@ -84,7 +84,7 @@ class StudentParent extends StatelessWidget {
                       Padding(
                         padding: EdgeInsets.only(top: screenHeight * 0.12),
                         child: Text(
-                          "Welcome to mentyour\nname!",
+                          "Welcome to MentYOUR\nname!",
                           style: TextStyle(
                             fontFamily: "DM Sans",
                             fontSize: screenWidth * 0.07,
