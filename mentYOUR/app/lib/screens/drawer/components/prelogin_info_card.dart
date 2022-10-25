@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:nakshekadam/common_widgets/formfields.dart';
-import 'package:nakshekadam/globals.dart';
-import 'package:nakshekadam/models/user_details_model.dart';
-import 'package:nakshekadam/screens/drawer/components/drawer_card_field.dart';
-import 'package:nakshekadam/screens/main/tabs/counsellor_page/components/counsellor_dialogbox_button.dart';
-import 'package:nakshekadam/screens/student_post_login/student_main/tabs/counsellor_tabs/components/custom_text_form_field.dart';
-import 'package:nakshekadam/services/Firebase/fireauth/fireauth.dart';
+import 'package:mentyour/common_widgets/formfields.dart';
+import 'package:mentyour/globals.dart';
+import 'package:mentyour/models/user_details_model.dart';
+import 'package:mentyour/screens/drawer/components/drawer_card_field.dart';
+import 'package:mentyour/screens/main/tabs/counsellor_page/components/counsellor_dialogbox_button.dart';
+import 'package:mentyour/screens/student_post_login/student_main/tabs/counsellor_tabs/components/custom_text_form_field.dart';
+import 'package:mentyour/services/Firebase/fireauth/fireauth.dart';
 import 'package:readmore/readmore.dart';
 
 class PreLoginDrawerUserInfoCard extends StatefulWidget {

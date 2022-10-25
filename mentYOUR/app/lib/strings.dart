@@ -288,13 +288,13 @@ const Map<String, dynamic> stringData = {
       },
       "industrial experts": {
         "description":
-            "We understand the need to connect with people having hands-on experience in their domains to make an informed choice. Keeping that in mind, NaksheKADAM brings you verified and handpicked industry professionals who can solve all your queries related to any domains that you might feel particularly lost about.\n\nCONNECT TO EXPERTS !",
+            "We understand the need to connect with people having hands-on experience in their domains to make an informed choice. Keeping that in mind, mentyour brings you verified and handpicked industry professionals who can solve all your queries related to any domains that you might feel particularly lost about.\n\nCONNECT TO EXPERTS !",
         "buttonTitle": "Connect with an expert!",
         "color": Color(0xFFC1EFFF)
       },
       "professional counsellors": {
         "description":
-            "At NaksheKADAM, we provide everyone a safe space to interact with certified professionals who are trained in providing one-on-one career guidance. While Vidya uses her intelligence to be a confidant, she also generates a report for your respective professional counselors that you wish to schedule meetings with. These counselors are top-rated, verified and specialize in giving you the final clarity you might need.\n\nCONNECT TO PROFESSIONALS NOW!",
+            "At mentyour, we provide everyone a safe space to interact with certified professionals who are trained in providing one-on-one career guidance. While Vidya uses her intelligence to be a confidant, she also generates a report for your respective professional counselors that you wish to schedule meetings with. These counselors are top-rated, verified and specialize in giving you the final clarity you might need.\n\nCONNECT TO PROFESSIONALS NOW!",
         "buttonTitle": "Connect with a professional",
         "color": Color(0xFFFFDBA4)
       }
@@ -310,7 +310,7 @@ const Map<String, dynamic> stringData = {
     "": ""
   },
   "Customised specially for you0":
-      '''NaksheKADAM has been designed for all you parents to be able to break down different aspects of your child’s educational journey. Our certified counselors on-board have expertise in answering all your queries. Vidya bot is trained to articulate answers spanning over 58,000 verified articles. Additionally, our specially curated tests for your child will help them clear their confusions in a clear manner. Browse through different aspects and send us feedback!''',
+      '''mentyour has been designed for all you parents to be able to break down different aspects of your child’s educational journey. Our certified counselors on-board have expertise in answering all your queries. Vidya bot is trained to articulate answers spanning over 58,000 verified articles. Additionally, our specially curated tests for your child will help them clear their confusions in a clear manner. Browse through different aspects and send us feedback!''',
   "Customised specially for you1":
       '''We understand you are feeling lost and confused but don’t worry buddy, we got you! 
 First, we want you to give you a few tests for us to get an understanding of what could be the best fit for you. After that, you can choose to send your report to the counsellors and experts of your choice. While you wait for the counsellors, feel free to talk to Vidya, our intelligent machine counsellor equipped to help you navigate the application as well as your feelings! Browse away!''',
@@ -322,7 +322,7 @@ First, we want you to give you a few tests for us to get an understanding of wha
   "Customised specially for you4":
       '''Hey, we completely understand the pressure you feel with regards to selecting a career track. These decisions should only be taken with a clear mind, which is why we suggest you have a chat with our professional counsellors. They are here to lend an ear to your problems while helping you navigate through these stressful times efficiently. Pave way for your successful life now!''',
   "Our Vision":
-      "DoESL's venture NaksheKADAM is built in mind keeping the NEP and its modifications in mind, solving all queries of 9th to 12th graders in the most coundcive manner. It provides students with relevant information regarding what subjects will lead to what career paths, what are the Higher Educational Institutions for study for pursuing such studies, what are the entrance exams required, what aptitude tests are available, etc, how to access them, making it a one-stop solution for everything. NaksheKADAM is also a safespace for students to discuss their fears and for parents to raise queries. Our verified counsellors, industry experts, AI-based tests, chatbots and comprehsive technology driven solutions are here to help all children and parents with their issues.",
+      "DoESL's venture mentyour is built in mind keeping the NEP and its modifications in mind, solving all queries of 9th to 12th graders in the most coundcive manner. It provides students with relevant information regarding what subjects will lead to what career paths, what are the Higher Educational Institutions for study for pursuing such studies, what are the entrance exams required, what aptitude tests are available, etc, how to access them, making it a one-stop solution for everything. mentyour is also a safespace for students to discuss their fears and for parents to raise queries. Our verified counsellors, industry experts, AI-based tests, chatbots and comprehsive technology driven solutions are here to help all children and parents with their issues.",
   "About DoESL":
       '''The Department of School Education & Literacy is responsible for development of school education and literacy in the country, the Department of Higher Education takes care of what is one of the largest Higher Education systems of the world, just after the United States and China.  
 The Dept of SE & L has its eyes set on the “universalisation of education” and making better citizens out of our young brigade. For this, various new schemes and initiatives are taken up regularly and recently, those schemes and initiatives have also started paying dividends in the form of growing enrolment in schools.''',

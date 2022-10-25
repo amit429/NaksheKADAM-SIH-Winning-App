@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-import 'package:nakshekadam/globals.dart';
-import 'package:nakshekadam/screens/main/tabs/counsellor_page/components/counsellor_dialogbox_button.dart';
-import 'package:nakshekadam/strings.dart';
+import 'package:mentyour/globals.dart';
+import 'package:mentyour/screens/main/tabs/counsellor_page/components/counsellor_dialogbox_button.dart';
+import 'package:mentyour/strings.dart';
 
 class TestGivenDialogBox extends StatelessWidget {
   const TestGivenDialogBox({

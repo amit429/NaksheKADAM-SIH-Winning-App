@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:nakshekadam/common_widgets/backgrounds/bigThreeBg.dart';
-import 'package:nakshekadam/common_widgets/signup_dialog.dart';
-import 'package:nakshekadam/globals.dart';
-import 'package:nakshekadam/screens/main/tabs/counsellor_page/components/counsellor_card.dart';
-import 'package:nakshekadam/screens/main/tabs/counsellor_page/components/counsellor_card_dialog.dart';
-import 'package:nakshekadam/screens/main/tabs/home_page/components/carousel.dart';
-import 'package:nakshekadam/screens/main/tabs/home_page/components/info_card.dart';
-import 'package:nakshekadam/screens/main/tabs/home_page/components/option_buttons/option_buttons.dart';
-import 'package:nakshekadam/screens/main/tabs/resources_page/components/resource_card.dart';
-import 'package:nakshekadam/screens/main/tabs/tests_page.dart/components/test_button.dart';
-import 'package:nakshekadam/screens/main/tabs/tests_page.dart/components/tests_card.dart';
-import 'package:nakshekadam/services/Firebase/fireauth/fireauth.dart';
-import 'package:nakshekadam/strings.dart';
+import 'package:mentyour/common_widgets/backgrounds/bigThreeBg.dart';
+import 'package:mentyour/common_widgets/signup_dialog.dart';
+import 'package:mentyour/globals.dart';
+import 'package:mentyour/screens/main/tabs/counsellor_page/components/counsellor_card.dart';
+import 'package:mentyour/screens/main/tabs/counsellor_page/components/counsellor_card_dialog.dart';
+import 'package:mentyour/screens/main/tabs/home_page/components/carousel.dart';
+import 'package:mentyour/screens/main/tabs/home_page/components/info_card.dart';
+import 'package:mentyour/screens/main/tabs/home_page/components/option_buttons/option_buttons.dart';
+import 'package:mentyour/screens/main/tabs/resources_page/components/resource_card.dart';
+import 'package:mentyour/screens/main/tabs/tests_page.dart/components/test_button.dart';
+import 'package:mentyour/screens/main/tabs/tests_page.dart/components/tests_card.dart';
+import 'package:mentyour/services/Firebase/fireauth/fireauth.dart';
+import 'package:mentyour/strings.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class TestsPage extends StatelessWidget {

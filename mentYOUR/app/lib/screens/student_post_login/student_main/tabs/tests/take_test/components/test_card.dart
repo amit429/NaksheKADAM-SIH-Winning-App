@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
-import 'package:nakshekadam/globals.dart';
+import 'package:mentyour/globals.dart';
 
 class TestCard extends StatefulWidget {
   const TestCard({

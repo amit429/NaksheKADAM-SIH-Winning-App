@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:nakshekadam/models/faq_model.dart';
+import 'package:mentyour/models/faq_model.dart';
 
 class FAQsController extends ChangeNotifier {
   final faqs = FAQModel().faqs;

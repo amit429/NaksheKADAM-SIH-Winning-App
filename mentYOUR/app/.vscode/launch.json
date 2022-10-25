@@ -5,18 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "nakshekadam_sih",
+            "name": "mentyour_sih",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "nakshekadam_sih (profile mode)",
+            "name": "mentyour_sih (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "nakshekadam_sih (release mode)",
+            "name": "mentyour_sih (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"

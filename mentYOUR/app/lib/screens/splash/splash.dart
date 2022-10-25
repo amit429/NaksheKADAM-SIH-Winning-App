@@ -1,12 +1,12 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:nakshekadam/common_widgets/customPageRouter.dart';
-import 'package:nakshekadam/globals.dart';
-import 'package:nakshekadam/screens/student_post_login/info_collection/student_parent.dart';
-import 'package:nakshekadam/services/Firebase/fireauth/fireauth.dart';
-import 'package:nakshekadam/services/Firebase/firestore/firestore.dart';
-import 'package:nakshekadam/services/Firebase/push_notification/push_notification_service.dart';
+import 'package:mentyour/common_widgets/customPageRouter.dart';
+import 'package:mentyour/globals.dart';
+import 'package:mentyour/screens/student_post_login/info_collection/student_parent.dart';
+import 'package:mentyour/services/Firebase/fireauth/fireauth.dart';
+import 'package:mentyour/services/Firebase/firestore/firestore.dart';
+import 'package:mentyour/services/Firebase/push_notification/push_notification_service.dart';
 
 class Splash extends StatefulWidget {
   const Splash({Key? key}) : super(key: key);
@@ -90,7 +90,7 @@ class _SplashState extends State<Splash> with TickerProviderStateMixin {
             child: SizedBox(
               height: MediaQuery.of(context).size.width / 2,
               child: Lottie.network(
-                'https://nakshekadam.rushour0.repl.co/lottieJson',
+                'https://mentyour.rushour0.repl.co/lottieJson',
                 fit: BoxFit.contain,
                 controller: _controller,
                 onLoaded: (composition) {

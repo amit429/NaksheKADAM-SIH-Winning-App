@@ -2,14 +2,14 @@ import 'package:dropdown_button2/dropdown_button2.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:nakshekadam/common_widgets/backgrounds/bigOneSmallOneBg.dart';
-import 'package:nakshekadam/common_widgets/backgrounds/bigThreeBg.dart';
-import 'package:nakshekadam/common_widgets/formfields.dart';
-import 'package:nakshekadam/screens/student_post_login/info_collection/walkthroughParent.dart';
-import 'package:nakshekadam/screens/student_post_login/info_collection/walkthroughStudent.dart';
-import 'package:nakshekadam/screens/walkthrough/walkthrough.dart';
-import 'package:nakshekadam/services/Firebase/FireAuth/fireauth.dart';
-import 'package:nakshekadam/services/Firebase/firestore/firestore.dart';
+import 'package:mentyour/common_widgets/backgrounds/bigOneSmallOneBg.dart';
+import 'package:mentyour/common_widgets/backgrounds/bigThreeBg.dart';
+import 'package:mentyour/common_widgets/formfields.dart';
+import 'package:mentyour/screens/student_post_login/info_collection/walkthroughParent.dart';
+import 'package:mentyour/screens/student_post_login/info_collection/walkthroughStudent.dart';
+import 'package:mentyour/screens/walkthrough/walkthrough.dart';
+import 'package:mentyour/services/Firebase/FireAuth/fireauth.dart';
+import 'package:mentyour/services/Firebase/firestore/firestore.dart';
 
 class ParentDetailsCollection extends StatefulWidget {
   const ParentDetailsCollection({Key? key}) : super(key: key);

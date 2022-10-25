@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:nakshekadam/globals.dart';
-import 'package:nakshekadam/strings.dart';
+import 'package:mentyour/globals.dart';
+import 'package:mentyour/strings.dart';
 
 Column infographicsAndText({
   required double screenWidth,

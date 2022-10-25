@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const String APP_TITLE = "NaksheKADAM";
+const String APP_TITLE = "mentyour";
 
 const String APP_ICON = "assets/images/app_icon.png";
 

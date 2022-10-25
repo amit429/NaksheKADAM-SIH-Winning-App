@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:nakshekadam/common_widgets/backgrounds/bigTwoSmallOneBg.dart';
-import 'package:nakshekadam/common_widgets/customPageRouter.dart';
-import 'package:nakshekadam/common_widgets/formfields.dart';
-import 'package:nakshekadam/screens/verification&details/mobileVerification/phone_auth_otp.dart';
+import 'package:mentyour/common_widgets/backgrounds/bigTwoSmallOneBg.dart';
+import 'package:mentyour/common_widgets/customPageRouter.dart';
+import 'package:mentyour/common_widgets/formfields.dart';
+import 'package:mentyour/screens/verification&details/mobileVerification/phone_auth_otp.dart';
 
 class PhoneAuth extends StatefulWidget {
   const PhoneAuth({Key? key}) : super(key: key);

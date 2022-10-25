@@ -1,4 +1,4 @@
-import 'package:nakshekadam/globals.dart';
+import 'package:mentyour/globals.dart';
 import 'package:flutter/material.dart';
 
 class NoItemsInTab extends StatelessWidget {

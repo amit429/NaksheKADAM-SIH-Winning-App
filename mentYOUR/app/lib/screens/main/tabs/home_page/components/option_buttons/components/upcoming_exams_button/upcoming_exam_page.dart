@@ -3,10 +3,10 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:nakshekadam/globals.dart';
-import 'package:nakshekadam/models/upcoming_exams_model.dart';
-import 'package:nakshekadam/screens/main/tabs/home_page/components/option_buttons/components/upcoming_exams_button/components.dart/upcoming_exam_info_card.dart';
-import 'package:nakshekadam/screens/main/tabs/home_page/components/option_buttons/components/upcoming_exams_button/components.dart/upcoming_exams_card_button.dart';
+import 'package:mentyour/globals.dart';
+import 'package:mentyour/models/upcoming_exams_model.dart';
+import 'package:mentyour/screens/main/tabs/home_page/components/option_buttons/components/upcoming_exams_button/components.dart/upcoming_exam_info_card.dart';
+import 'package:mentyour/screens/main/tabs/home_page/components/option_buttons/components/upcoming_exams_button/components.dart/upcoming_exams_card_button.dart';
 import 'package:http/http.dart' as http;
 
 class UpcomingExamsPage extends StatefulWidget {

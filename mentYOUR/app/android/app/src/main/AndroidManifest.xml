@@ -1,8 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.underdogs.nakshekadam">
+    package="com.bitnuggets.mentyour">
    <application
-        android:label="NaksheKADAM"
-        <!-- android:label="mentYOUR" -->
+        android:label="mentYOUR"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity

@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'package:nakshekadam/common_widgets/backgrounds/bigOneSmallOneBg.dart';
-import 'package:nakshekadam/screens/student_post_login/info_collection/components/student_parent_card.dart';
-import 'package:nakshekadam/screens/student_post_login/info_collection/student_details_collection.dart';
-import 'package:nakshekadam/screens/student_post_login/student_main/tabs/counsellor_tabs/components/professional_counsellor_card.dart';
-import 'package:nakshekadam/screens/student_post_login/student_main/tabs/counsellor_tabs/connected_counsellors/connected_counsellors.dart';
-import 'package:nakshekadam/screens/student_post_login/student_main/tabs/counsellor_tabs/explore_counsellors/explore_experts_counsellors.dart';
+import 'package:mentyour/common_widgets/backgrounds/bigOneSmallOneBg.dart';
+import 'package:mentyour/screens/student_post_login/info_collection/components/student_parent_card.dart';
+import 'package:mentyour/screens/student_post_login/info_collection/student_details_collection.dart';
+import 'package:mentyour/screens/student_post_login/student_main/tabs/counsellor_tabs/components/professional_counsellor_card.dart';
+import 'package:mentyour/screens/student_post_login/student_main/tabs/counsellor_tabs/connected_counsellors/connected_counsellors.dart';
+import 'package:mentyour/screens/student_post_login/student_main/tabs/counsellor_tabs/explore_counsellors/explore_experts_counsellors.dart';
 
 class CounsellorORExpert extends StatelessWidget {
   const CounsellorORExpert({

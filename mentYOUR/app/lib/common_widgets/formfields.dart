@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'package:nakshekadam/services/Firebase/fireauth/fireauth.dart';
+import 'package:mentyour/services/Firebase/fireauth/fireauth.dart';
 
 TextFormField normalformfield(
   TextEditingController controller,

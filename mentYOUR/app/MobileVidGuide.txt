@@ -1,4 +1,4 @@
-00:00:00 - App open- NaksheKadam Animation
+00:00:00 - App open- mentyour Animation
 00:00:08 - Read from walktrough pages
 00:00:13 - We can either go through the signup process or we can even access some features without login or signup.
 00:00:15 - After we login without signup main page opens where we can read about our vision, about ministry and new education policy.

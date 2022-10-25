@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nakshekadam/globals.dart';
+import 'package:mentyour/globals.dart';
 
 Padding domainWisePercentage(double screenHeight, double screenWidth,
         String stream, double percentage) =>

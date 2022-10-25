@@ -4,12 +4,12 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:nakshekadam/globals.dart';
+import 'package:mentyour/globals.dart';
 import 'package:http/http.dart' as http;
-import 'package:nakshekadam/models/college_extraction_model.dart';
-import 'package:nakshekadam/models/colleges_model.dart';
-import 'package:nakshekadam/screens/main/tabs/college_page/college_filter_page.dart';
-import 'package:nakshekadam/screens/main/tabs/college_page/college_info_card.dart';
+import 'package:mentyour/models/college_extraction_model.dart';
+import 'package:mentyour/models/colleges_model.dart';
+import 'package:mentyour/screens/main/tabs/college_page/college_filter_page.dart';
+import 'package:mentyour/screens/main/tabs/college_page/college_info_card.dart';
 
 class CollegePage extends StatefulWidget {
   const CollegePage({Key? key}) : super(key: key);
@@ -26,7 +26,7 @@ class _CollegePageState extends State<CollegePage> {
       CollegeExtractionModel.getModel();
   int ind = 0;
   // Future<void> fetchCollegeInfo() async {
-  //   var url = Uri.parse("https://nakshekadam.tushar725mittal.repl.co/colleges");
+  //   var url = Uri.parse("https://mentyour.tushar725mittal.repl.co/colleges");
 
   //   final response = await http.get(url);
   //   print("response : $response");

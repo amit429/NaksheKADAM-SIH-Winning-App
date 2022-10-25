@@ -1,19 +1,19 @@
 import 'package:custom_navigation_bar/custom_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
-import 'package:nakshekadam/common_widgets/backgrounds/bigOneSmallOneBg.dart';
-import 'package:nakshekadam/common_widgets/common_appbar/common_appbar.dart';
-import 'package:nakshekadam/common_widgets/common_appbar/components/language_dropdown.dart';
-import 'package:nakshekadam/common_widgets/drawer/drawer.dart';
-import 'package:nakshekadam/common_widgets/drawer/prelogin_drawer.dart';
-import 'package:nakshekadam/common_widgets/no_items.dart';
-import 'package:nakshekadam/globals.dart';
-import 'package:nakshekadam/screens/main/tabs/college_page/college_page.dart';
-import 'package:nakshekadam/screens/main/tabs/counsellor_page/components/counsellor_card_dialog.dart';
-import 'package:nakshekadam/screens/main/tabs/counsellor_page/counsellor_page.dart';
-import 'package:nakshekadam/screens/main/tabs/home_page/home_page.dart';
-import 'package:nakshekadam/screens/main/tabs/resources_page/resources_page.dart';
-import 'package:nakshekadam/screens/main/tabs/tests_page.dart/test_page.dart';
+import 'package:mentyour/common_widgets/backgrounds/bigOneSmallOneBg.dart';
+import 'package:mentyour/common_widgets/common_appbar/common_appbar.dart';
+import 'package:mentyour/common_widgets/common_appbar/components/language_dropdown.dart';
+import 'package:mentyour/common_widgets/drawer/drawer.dart';
+import 'package:mentyour/common_widgets/drawer/prelogin_drawer.dart';
+import 'package:mentyour/common_widgets/no_items.dart';
+import 'package:mentyour/globals.dart';
+import 'package:mentyour/screens/main/tabs/college_page/college_page.dart';
+import 'package:mentyour/screens/main/tabs/counsellor_page/components/counsellor_card_dialog.dart';
+import 'package:mentyour/screens/main/tabs/counsellor_page/counsellor_page.dart';
+import 'package:mentyour/screens/main/tabs/home_page/home_page.dart';
+import 'package:mentyour/screens/main/tabs/resources_page/resources_page.dart';
+import 'package:mentyour/screens/main/tabs/tests_page.dart/test_page.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({
@@ -99,7 +99,7 @@ class _MainPageState extends State<MainPage> with TickerProviderStateMixin {
           parentSet: setState,
         ),
         // Text(
-        //   'NaksheKADAM',
+        //   'mentyour',
         //   style: TextStyle(
         //     fontFamily: 'DM Sans',
         //     fontSize: screenWidth * 0.05,

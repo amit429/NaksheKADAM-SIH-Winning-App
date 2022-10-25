@@ -1,14 +1,14 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:nakshekadam/classes/explore_person.dart';
+import 'package:mentyour/classes/explore_person.dart';
 
-import 'package:nakshekadam/common_widgets/backgrounds/bigOneSmallOneBg.dart';
-import 'package:nakshekadam/common_widgets/formfields.dart';
-import 'package:nakshekadam/globals.dart';
-import 'package:nakshekadam/screens/student_post_login/student_main/tabs/counsellor_tabs/explore_counsellors/components/explore_counsellor_cards.dart';
-import 'package:nakshekadam/screens/student_post_login/student_main/tabs/counsellor_tabs/explore_counsellors/components/explore_counsellor_sort.dart';
-import 'package:nakshekadam/services/Firebase/firestore/firestore.dart';
+import 'package:mentyour/common_widgets/backgrounds/bigOneSmallOneBg.dart';
+import 'package:mentyour/common_widgets/formfields.dart';
+import 'package:mentyour/globals.dart';
+import 'package:mentyour/screens/student_post_login/student_main/tabs/counsellor_tabs/explore_counsellors/components/explore_counsellor_cards.dart';
+import 'package:mentyour/screens/student_post_login/student_main/tabs/counsellor_tabs/explore_counsellors/components/explore_counsellor_sort.dart';
+import 'package:mentyour/services/Firebase/firestore/firestore.dart';
 
 class ExploreExpertCounsellor extends StatefulWidget {
   const ExploreExpertCounsellor({
