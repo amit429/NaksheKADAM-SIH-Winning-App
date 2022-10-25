@@ -1,7 +1,7 @@
 import 'dart:collection';
 
-// import 'package:nakshekadam/services/Firebase/FireAuth/fireauth.dart';
-import 'package:nakshekadam/services/Firebase/fireauth/fireauth.dart';
+// import 'package:mentyour/services/Firebase/FireAuth/fireauth.dart';
+import 'package:mentyour/services/Firebase/fireauth/fireauth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_database/firebase_database.dart';

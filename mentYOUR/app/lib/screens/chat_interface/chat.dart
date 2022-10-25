@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_chat_types/flutter_chat_types.dart' as types;
 import 'package:flutter_chat_ui/flutter_chat_ui.dart';
 import 'package:flutter_firebase_chat_core/flutter_firebase_chat_core.dart';
-import 'package:nakshekadam/globals.dart';
-import 'package:nakshekadam/models/user_details_model.dart';
-import 'package:nakshekadam/services/Firebase/fireauth/fireauth.dart';
+import 'package:mentyour/globals.dart';
+import 'package:mentyour/models/user_details_model.dart';
+import 'package:mentyour/services/Firebase/fireauth/fireauth.dart';
 
 class ChatPage extends StatefulWidget {
   const ChatPage({
@@ -42,7 +42,7 @@ class _ChatPageState extends State<ChatPage> {
                 // row has two child icon and text.
                 child: menuItem(
                   screenWidth,
-                  const Icon(
+                  Icon(
                     Icons.report,
                     color: Colors.red,
                   ),
@@ -58,7 +58,7 @@ class _ChatPageState extends State<ChatPage> {
                 // row has two child icon and text
                 child: menuItem(
                   screenWidth,
-                  const Icon(
+                  Icon(
                     Icons.call,
                     color: Colors.black,
                   ),
@@ -66,7 +66,7 @@ class _ChatPageState extends State<ChatPage> {
                   () async {
                     showAboutDialog(
                         context: context,
-                        children: [const Text("Helpline number: +91-9888888888")]);
+                        children: [Text("Helpline number: +91-9888888888")]);
                   },
                 ),
               ),
@@ -145,17 +145,17 @@ class _ChatPageState extends State<ChatPage> {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: const Text("Report"),
-          content: const Text("Report this counsellor?"),
+          title: Text("Report"),
+          content: Text("Report this counsellor?"),
           actions: <Widget>[
             ElevatedButton(
-              child: const Text("Cancel"),
+              child: Text("Cancel"),
               onPressed: () {
                 Navigator.of(context).pop();
               },
             ),
             ElevatedButton(
-              child: const Text("Report"),
+              child: Text("Report"),
               onPressed: () async {
                 String otherId = widget.room.users
                     .where((element) => element.id != getCurrentUserId())

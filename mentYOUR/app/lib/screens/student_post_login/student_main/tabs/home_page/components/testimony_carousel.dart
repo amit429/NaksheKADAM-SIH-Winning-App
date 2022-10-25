@@ -3,8 +3,8 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-import 'package:nakshekadam/globals.dart';
-import 'package:nakshekadam/screens/student_post_login/student_main/tabs/home_page/components/testimony_cards.dart';
+import 'package:mentyour/globals.dart';
+import 'package:mentyour/screens/student_post_login/student_main/tabs/home_page/components/testimony_cards.dart';
 
 class TestimonyCarouselSlider extends StatefulWidget {
   const TestimonyCarouselSlider({
@@ -50,7 +50,7 @@ class _TestimonyCarouselSliderState extends State<TestimonyCarouselSlider> {
         "name": "John",
         "role": "tudent",
         "testimony":
-            "I got to know about NaksheKADAM from one of my friends. I was struggling with finding right resources for information regarding scholarships in india. NaksheKADAM became a one stop solution for me to look through various scholarships in india and  scholarships that are particularly beneficial for me. NaksheKADAM made that tedious process of researching throught various websites for relevant career / education related content very easy for me and my friends.",
+            "I got to know about MentYOUR from one of my friends. I was struggling with finding right resources for information regarding scholarships in india. MentYOUR became a one stop solution for me to look through various scholarships in india and  scholarships that are particularly beneficial for me. MentYOUR made that tedious process of researching throught various websites for relevant career / education related content very easy for me and my friends.",
       },
     ];
 

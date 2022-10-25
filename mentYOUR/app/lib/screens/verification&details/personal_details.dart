@@ -1,7 +1,7 @@
 import 'package:dropdown_button2/dropdown_button2.dart' show DropdownButton2;
 import 'package:flutter/material.dart';
-import 'package:nakshekadam/common_widgets/backgrounds/bigThreeBg.dart';
-import 'package:nakshekadam/common_widgets/formfields.dart';
+import 'package:mentyour/common_widgets/backgrounds/bigThreeBg.dart';
+import 'package:mentyour/common_widgets/formfields.dart';
 
 class PersonalDetails extends StatefulWidget {
   const PersonalDetails({Key? key}) : super(key: key);

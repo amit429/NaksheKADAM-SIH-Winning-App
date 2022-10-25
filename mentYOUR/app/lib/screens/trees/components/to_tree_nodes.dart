@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/foundation/key.dart';
-import 'package:nakshekadam/screens/trees/components/decrease_font_weight.dart';
-import 'package:nakshekadam/screens/trees/custom_tree_node.dart';
+import 'package:mentyour/screens/trees/components/decrease_font_weight.dart';
+import 'package:mentyour/screens/trees/custom_tree_node.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 List<TreeNode> toTreeNodes(

@@ -5,13 +5,13 @@ import 'package:flutter/services.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:nakshekadam/common_widgets/backgrounds/bigThreeBg.dart';
-import 'package:nakshekadam/common_widgets/customPageRouter.dart';
-import 'package:nakshekadam/common_widgets/formfields.dart';
-import 'package:nakshekadam/screens/walkthrough/wtpages/wttwo.dart';
-import 'package:nakshekadam/services/Firebase/fireauth/fireauth.dart';
-import 'package:nakshekadam/globals.dart';
-import 'package:nakshekadam/services/Firebase/firestore/firestore.dart';
+import 'package:mentyour/common_widgets/backgrounds/bigThreeBg.dart';
+import 'package:mentyour/common_widgets/customPageRouter.dart';
+import 'package:mentyour/common_widgets/formfields.dart';
+import 'package:mentyour/screens/walkthrough/wtpages/wttwo.dart';
+import 'package:mentyour/services/Firebase/fireauth/fireauth.dart';
+import 'package:mentyour/globals.dart';
+import 'package:mentyour/services/Firebase/firestore/firestore.dart';
 
 class Login extends StatefulWidget {
   const Login({Key? key}) : super(key: key);

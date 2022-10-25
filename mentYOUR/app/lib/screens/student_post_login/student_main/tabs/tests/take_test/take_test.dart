@@ -9,19 +9,19 @@ import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-import 'package:nakshekadam/common_widgets/backgrounds/bigOneSmallOneBg.dart';
-import 'package:nakshekadam/common_widgets/backgrounds/bigThreeBg.dart';
-import 'package:nakshekadam/common_widgets/customPageRouter.dart';
-import 'package:nakshekadam/common_widgets/enums/test_enum.dart';
-import 'package:nakshekadam/common_widgets/formfields.dart';
-import 'package:nakshekadam/globals.dart';
-import 'package:nakshekadam/models/test_marks_model.dart';
-import 'package:nakshekadam/screens/student_post_login/student_main/tabs/tests/components/test_done_dialogbox.dart';
-import 'package:nakshekadam/screens/student_post_login/student_main/tabs/tests/take_test/components/test_card.dart';
-import 'package:nakshekadam/screens/student_post_login/student_main/tabs/tests/take_test/components/testDialogBox.dart';
-import 'package:nakshekadam/screens/walkthrough/wtpages/wttwo.dart';
-import 'package:nakshekadam/services/Firebase/fireauth/fireauth.dart';
-import 'package:nakshekadam/services/Firebase/firestore/firestore.dart';
+import 'package:mentyour/common_widgets/backgrounds/bigOneSmallOneBg.dart';
+import 'package:mentyour/common_widgets/backgrounds/bigThreeBg.dart';
+import 'package:mentyour/common_widgets/customPageRouter.dart';
+import 'package:mentyour/common_widgets/enums/test_enum.dart';
+import 'package:mentyour/common_widgets/formfields.dart';
+import 'package:mentyour/globals.dart';
+import 'package:mentyour/models/test_marks_model.dart';
+import 'package:mentyour/screens/student_post_login/student_main/tabs/tests/components/test_done_dialogbox.dart';
+import 'package:mentyour/screens/student_post_login/student_main/tabs/tests/take_test/components/test_card.dart';
+import 'package:mentyour/screens/student_post_login/student_main/tabs/tests/take_test/components/testDialogBox.dart';
+import 'package:mentyour/screens/walkthrough/wtpages/wttwo.dart';
+import 'package:mentyour/services/Firebase/fireauth/fireauth.dart';
+import 'package:mentyour/services/Firebase/firestore/firestore.dart';
 
 class TakeTest extends StatefulWidget {
   const TakeTest({

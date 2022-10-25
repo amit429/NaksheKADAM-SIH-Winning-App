@@ -178,7 +178,7 @@ class WTOne extends StatelessWidget {
                         padding: EdgeInsets.only(top: screenHeight * 0.5),
                         // padding: EdgeInsets.only(top: screenHeight * 0.04),
                         child: Text(
-                          "Welcome to NaksheKADAM",
+                          "Welcome to MentYOUR",
                           style: TextStyle(
                             fontFamily: "DM Sans",
                             fontSize: screenWidth * 0.06,

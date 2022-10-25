@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:nakshekadam/globals.dart';
-import 'package:nakshekadam/screens/main/tabs/home_page/components/bottom_sheet/bottom_sheet.dart';
-import 'package:nakshekadam/screens/main/tabs/resources_page/components/resource_explore_button.dart';
+import 'package:mentyour/globals.dart';
+import 'package:mentyour/screens/main/tabs/home_page/components/bottom_sheet/bottom_sheet.dart';
+import 'package:mentyour/screens/main/tabs/resources_page/components/resource_explore_button.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
-import 'package:nakshekadam/strings.dart';
+import 'package:mentyour/strings.dart';
 
 class ResourceCard extends StatelessWidget {
   const ResourceCard({

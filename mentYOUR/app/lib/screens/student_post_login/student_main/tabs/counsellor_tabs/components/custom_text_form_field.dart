@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nakshekadam/globals.dart';
+import 'package:mentyour/globals.dart';
 
 customTextField(
         String title, String text, double screenHeight, double screenWidth) =>

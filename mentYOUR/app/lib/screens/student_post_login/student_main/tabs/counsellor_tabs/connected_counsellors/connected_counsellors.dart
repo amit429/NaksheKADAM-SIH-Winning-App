@@ -3,17 +3,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:readmore/readmore.dart';
 
-import 'package:nakshekadam/common_widgets/backgrounds/bigOneSmallOneBg.dart';
-import 'package:nakshekadam/common_widgets/formfields.dart';
-import 'package:nakshekadam/globals.dart';
-import 'package:nakshekadam/screens/main/tabs/counsellor_page/components/counsellor_card_dialog.dart';
-import 'package:nakshekadam/screens/student_post_login/info_collection/components/student_parent_card.dart';
-import 'package:nakshekadam/screens/student_post_login/info_collection/student_details_collection.dart';
-import 'package:nakshekadam/screens/student_post_login/student_main/tabs/counsellor_tabs/components/professional_counsellor_card.dart';
-import 'package:nakshekadam/screens/student_post_login/student_main/tabs/counsellor_tabs/connected_counsellors/components/connected_counsellors_card_connected.dart';
-import 'package:nakshekadam/screens/student_post_login/student_main/tabs/counsellor_tabs/connected_counsellors/components/connected_counsellors_card_pending.dart';
-import 'package:nakshekadam/screens/student_post_login/student_main/tabs/counsellor_tabs/explore_counsellors/components/explore_counsellor_cards.dart';
-import 'package:nakshekadam/screens/student_post_login/student_main/tabs/counsellor_tabs/explore_counsellors/components/explore_counsellor_sort.dart';
+import 'package:mentyour/common_widgets/backgrounds/bigOneSmallOneBg.dart';
+import 'package:mentyour/common_widgets/formfields.dart';
+import 'package:mentyour/globals.dart';
+import 'package:mentyour/screens/main/tabs/counsellor_page/components/counsellor_card_dialog.dart';
+import 'package:mentyour/screens/student_post_login/info_collection/components/student_parent_card.dart';
+import 'package:mentyour/screens/student_post_login/info_collection/student_details_collection.dart';
+import 'package:mentyour/screens/student_post_login/student_main/tabs/counsellor_tabs/components/professional_counsellor_card.dart';
+import 'package:mentyour/screens/student_post_login/student_main/tabs/counsellor_tabs/connected_counsellors/components/connected_counsellors_card_connected.dart';
+import 'package:mentyour/screens/student_post_login/student_main/tabs/counsellor_tabs/connected_counsellors/components/connected_counsellors_card_pending.dart';
+import 'package:mentyour/screens/student_post_login/student_main/tabs/counsellor_tabs/explore_counsellors/components/explore_counsellor_cards.dart';
+import 'package:mentyour/screens/student_post_login/student_main/tabs/counsellor_tabs/explore_counsellors/components/explore_counsellor_sort.dart';
 
 class ConnectedCounsellor extends StatefulWidget {
   const ConnectedCounsellor({

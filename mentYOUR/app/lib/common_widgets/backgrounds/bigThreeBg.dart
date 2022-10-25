@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:nakshekadam/common_widgets/customPageRouter.dart';
-import 'package:nakshekadam/screens/walkthrough/wtpages/wttwo.dart';
-import 'package:nakshekadam/globals.dart';
+import 'package:mentyour/common_widgets/customPageRouter.dart';
+import 'package:mentyour/screens/walkthrough/wtpages/wttwo.dart';
+import 'package:mentyour/globals.dart';
 
 class BigThreeBG extends StatelessWidget {
   const BigThreeBG({Key? key}) : super(key: key);

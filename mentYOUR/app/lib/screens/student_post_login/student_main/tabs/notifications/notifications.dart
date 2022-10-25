@@ -1,9 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:nakshekadam/screens/student_post_login/student_main/tabs/notifications/components.dart';
+import 'package:mentyour/screens/student_post_login/student_main/tabs/notifications/components.dart';
 
-import 'package:nakshekadam/services/Firebase/fireauth/fireauth.dart';
+import 'package:mentyour/services/Firebase/fireauth/fireauth.dart';
 
 class NotificationsPage extends StatefulWidget {
   const NotificationsPage({Key? key}) : super(key: key);
@@ -50,10 +50,10 @@ class _NotificationsPageState extends State<NotificationsPage> {
 }
 
 NotificationInfo notification = NotificationInfo(
-  title: 'NaksheKADAM',
+  title: 'MentYOUR',
   description:
-      'NaksheKADAM is a platform for students to get access to the best resources available in the field of engineering.',
+      'MentYOUR is a platform for students to get access to the best resources available in the field of engineering.',
   date: 'Today',
-  subject: 'NaksheKADAM',
+  subject: 'MentYOUR',
   read: false,
 );

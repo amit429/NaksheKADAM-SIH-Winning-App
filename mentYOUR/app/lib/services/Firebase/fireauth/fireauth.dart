@@ -4,13 +4,13 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter_firebase_chat_core/flutter_firebase_chat_core.dart';
 import 'package:flutter_chat_types/flutter_chat_types.dart' as types;
-import 'package:nakshekadam/globals.dart';
-import 'package:nakshekadam/models/user_details_model.dart';
-import 'package:nakshekadam/services/Firebase/fireAuth/google_auth.dart'
+import 'package:mentyour/globals.dart';
+import 'package:mentyour/models/user_details_model.dart';
+import 'package:mentyour/services/Firebase/fireAuth/google_auth.dart'
     as google_auth;
-import 'package:nakshekadam/services/Firebase/firestore/firestore.dart';
-import 'package:nakshekadam/services/Firebase/push_notification/push_notification_service.dart';
-import 'package:nakshekadam/services/Firebase/realtime_database/realtime_database.dart';
+import 'package:mentyour/services/Firebase/firestore/firestore.dart';
+import 'package:mentyour/services/Firebase/push_notification/push_notification_service.dart';
+import 'package:mentyour/services/Firebase/realtime_database/realtime_database.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 final FirebaseAuth _auth = FirebaseAuth.instance;

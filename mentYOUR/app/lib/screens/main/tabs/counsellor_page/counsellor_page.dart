@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:nakshekadam/common_widgets/backgrounds/bigThreeBg.dart';
-import 'package:nakshekadam/globals.dart';
-import 'package:nakshekadam/models/user_details_model.dart';
-import 'package:nakshekadam/screens/main/tabs/counsellor_page/components/counsellor_card.dart';
-import 'package:nakshekadam/screens/main/tabs/counsellor_page/components/counsellor_card_dialog.dart';
-import 'package:nakshekadam/screens/main/tabs/home_page/components/carousel.dart';
-import 'package:nakshekadam/screens/main/tabs/home_page/components/info_card.dart';
-import 'package:nakshekadam/screens/main/tabs/home_page/components/option_buttons/option_buttons.dart';
-import 'package:nakshekadam/screens/main/tabs/resources_page/components/resource_card.dart';
-import 'package:nakshekadam/strings.dart';
+import 'package:mentyour/common_widgets/backgrounds/bigThreeBg.dart';
+import 'package:mentyour/globals.dart';
+import 'package:mentyour/models/user_details_model.dart';
+import 'package:mentyour/screens/main/tabs/counsellor_page/components/counsellor_card.dart';
+import 'package:mentyour/screens/main/tabs/counsellor_page/components/counsellor_card_dialog.dart';
+import 'package:mentyour/screens/main/tabs/home_page/components/carousel.dart';
+import 'package:mentyour/screens/main/tabs/home_page/components/info_card.dart';
+import 'package:mentyour/screens/main/tabs/home_page/components/option_buttons/option_buttons.dart';
+import 'package:mentyour/screens/main/tabs/resources_page/components/resource_card.dart';
+import 'package:mentyour/strings.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class CounsellorPage extends StatelessWidget {

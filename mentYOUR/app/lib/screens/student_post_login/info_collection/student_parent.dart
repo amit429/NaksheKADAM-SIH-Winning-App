@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:nakshekadam/screens/student_post_login/info_collection/components/student_parent_card.dart';
-import 'package:nakshekadam/screens/student_post_login/info_collection/parent_details_collection.dart';
-import 'package:nakshekadam/screens/student_post_login/info_collection/student_details_collection.dart';
-import 'package:nakshekadam/services/Firebase/firestore/firestore.dart';
+import 'package:mentyour/screens/student_post_login/info_collection/components/student_parent_card.dart';
+import 'package:mentyour/screens/student_post_login/info_collection/parent_details_collection.dart';
+import 'package:mentyour/screens/student_post_login/info_collection/student_details_collection.dart';
+import 'package:mentyour/services/Firebase/firestore/firestore.dart';
 
 class StudentParent extends StatelessWidget {
   const StudentParent({Key? key}) : super(key: key);
@@ -84,7 +84,7 @@ class StudentParent extends StatelessWidget {
                       Padding(
                         padding: EdgeInsets.only(top: screenHeight * 0.12),
                         child: Text(
-                          "Welcome to NaksheKADAM\nname!",
+                          "Welcome to MentYOUR\nname!",
                           style: TextStyle(
                             fontFamily: "DM Sans",
                             fontSize: screenWidth * 0.07,

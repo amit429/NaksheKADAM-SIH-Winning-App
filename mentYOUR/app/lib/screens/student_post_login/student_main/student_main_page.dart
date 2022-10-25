@@ -1,23 +1,23 @@
 import 'package:custom_navigation_bar/custom_navigation_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:nakshekadam/screens/student_post_login/student_main/tabs/info/info.dart';
+import 'package:mentyour/screens/student_post_login/student_main/tabs/info/info.dart';
 
-import 'package:nakshekadam/services/Firebase/fireauth/fireauth.dart';
+import 'package:mentyour/services/Firebase/fireauth/fireauth.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
-import 'package:nakshekadam/common_widgets/backgrounds/bigOneSmallOneBg.dart';
-import 'package:nakshekadam/common_widgets/common_appbar/common_appbar.dart';
-import 'package:nakshekadam/common_widgets/common_appbar/components/language_dropdown.dart';
-import 'package:nakshekadam/common_widgets/drawer/drawer.dart';
-import 'package:nakshekadam/common_widgets/no_items.dart';
-import 'package:nakshekadam/globals.dart';
-import 'package:nakshekadam/models/user_details_model.dart';
-import 'package:nakshekadam/screens/main/tabs/counsellor_page/counsellor_page.dart';
-import 'package:nakshekadam/screens/student_post_login/student_main/tabs/home_page/student_home_page.dart';
-import 'package:nakshekadam/screens/student_post_login/student_main/tabs/notifications/notifications.dart';
-import 'package:nakshekadam/screens/student_post_login/student_main/tabs/tests/student_tests.dart';
-import 'package:nakshekadam/services/Firebase/firestore/firestore.dart';
+import 'package:mentyour/common_widgets/backgrounds/bigOneSmallOneBg.dart';
+import 'package:mentyour/common_widgets/common_appbar/common_appbar.dart';
+import 'package:mentyour/common_widgets/common_appbar/components/language_dropdown.dart';
+import 'package:mentyour/common_widgets/drawer/drawer.dart';
+import 'package:mentyour/common_widgets/no_items.dart';
+import 'package:mentyour/globals.dart';
+import 'package:mentyour/models/user_details_model.dart';
+import 'package:mentyour/screens/main/tabs/counsellor_page/counsellor_page.dart';
+import 'package:mentyour/screens/student_post_login/student_main/tabs/home_page/student_home_page.dart';
+import 'package:mentyour/screens/student_post_login/student_main/tabs/notifications/notifications.dart';
+import 'package:mentyour/screens/student_post_login/student_main/tabs/tests/student_tests.dart';
+import 'package:mentyour/services/Firebase/firestore/firestore.dart';
 
 class StudentMainPage extends StatefulWidget {
   const StudentMainPage({
@@ -123,7 +123,7 @@ class _StudentMainPageState extends State<StudentMainPage>
           parentSet: setState,
         ),
         // Text(
-        //   'NaksheKADAM',
+        //   'MentYOUR',
         //   style: TextStyle(
         //     fontFamily: 'DM Sans',
         //     fontSize: screenWidth * 0.05,
@@ -165,7 +165,7 @@ class _StudentMainPageState extends State<StudentMainPage>
                               enableJavaScript: true,
                             ),
                             Uri.parse(
-                                "https://nakshekadam-vidya-bot.loca.lt?uid=$uid"));
+                                "https://mentyour-vidya-bot.loca.lt?uid=$uid"));
                       },
                       child: Icon(
                         Icons.chat,
@@ -187,7 +187,7 @@ class _StudentMainPageState extends State<StudentMainPage>
                         await launchUrl(
                             mode: LaunchMode.externalApplication,
                             Uri.parse(
-                                "https://nakshekadam-vidya-bot.loca.lt?uid=$uid"));
+                                "https://mentyour-vidya-bot.loca.lt?uid=$uid"));
                       },
                       icon: Icon(
                         Icons.chat,

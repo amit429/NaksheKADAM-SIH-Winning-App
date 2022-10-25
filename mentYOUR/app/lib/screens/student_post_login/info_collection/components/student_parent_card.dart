@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:nakshekadam/globals.dart';
-import 'package:nakshekadam/strings.dart';
+import 'package:mentyour/globals.dart';
+import 'package:mentyour/strings.dart';
 
 Card studentParentCard(double screenHeight, double screenWidth, String role) => Card(
     elevation: 5,

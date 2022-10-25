@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nakshekadam/screens/drawer/drawer_tabs/faqs/components/faq_controller.dart';
+import 'package:mentyour/screens/drawer/drawer_tabs/faqs/components/faq_controller.dart';
 import 'package:provider/provider.dart';
 
 // import '../../../models/faq_model.dart';

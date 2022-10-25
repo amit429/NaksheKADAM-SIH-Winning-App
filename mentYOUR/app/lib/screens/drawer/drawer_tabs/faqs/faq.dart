@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:nakshekadam/screens/drawer/drawer_tabs/faqs/components/faq_cards_search.dart';
-import 'package:nakshekadam/screens/drawer/drawer_tabs/faqs/components/faq_controller.dart';
+import 'package:mentyour/screens/drawer/drawer_tabs/faqs/components/faq_cards_search.dart';
+import 'package:mentyour/screens/drawer/drawer_tabs/faqs/components/faq_controller.dart';
 import 'package:provider/provider.dart';
 
 class Faq extends StatefulWidget {

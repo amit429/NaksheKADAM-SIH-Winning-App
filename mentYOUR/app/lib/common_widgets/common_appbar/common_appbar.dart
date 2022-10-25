@@ -1,9 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:nakshekadam/classes/language.dart';
-import 'package:nakshekadam/globals.dart';
-import 'package:nakshekadam/services/Firebase/fireauth/fireauth.dart';
+import 'package:mentyour/classes/language.dart';
+import 'package:mentyour/globals.dart';
+import 'package:mentyour/services/Firebase/fireauth/fireauth.dart';
 
 AppBar commonAppBar({
   required Widget title,

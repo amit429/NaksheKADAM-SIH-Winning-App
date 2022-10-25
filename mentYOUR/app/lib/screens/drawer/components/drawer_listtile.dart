@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nakshekadam/globals.dart';
+import 'package:mentyour/globals.dart';
 
 ListTile drawerListTile(
     {required String title,

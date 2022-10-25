@@ -5,10 +5,10 @@
 // https://developers.google.com/open-source/licenses/bsd
 
 import 'package:flutter/material.dart';
-import 'package:nakshekadam/screens/trees/custom_build_nodes.dart';
-import 'package:nakshekadam/screens/trees/custom_copy_tree_node.dart';
-import 'package:nakshekadam/screens/trees/custom_tree_controller.dart';
-import 'package:nakshekadam/screens/trees/custom_tree_node.dart';
+import 'package:mentyour/screens/trees/custom_build_nodes.dart';
+import 'package:mentyour/screens/trees/custom_copy_tree_node.dart';
+import 'package:mentyour/screens/trees/custom_tree_controller.dart';
+import 'package:mentyour/screens/trees/custom_tree_node.dart';
 
 /// Tree view with collapsible and expandable nodes.
 class TreeView extends StatefulWidget {

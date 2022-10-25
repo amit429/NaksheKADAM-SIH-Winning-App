@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-import 'package:nakshekadam/globals.dart';
-import 'package:nakshekadam/models/user_details_model.dart';
-import 'package:nakshekadam/screens/student_post_login/student_main/tabs/tests/components/test_done_dialogbox.dart';
-import 'package:nakshekadam/screens/student_post_login/student_main/tabs/tests/take_test/take_test.dart';
-import 'package:nakshekadam/services/Firebase/firestore/firestore.dart';
-import 'package:nakshekadam/strings.dart';
+import 'package:mentyour/globals.dart';
+import 'package:mentyour/models/user_details_model.dart';
+import 'package:mentyour/screens/student_post_login/student_main/tabs/tests/components/test_done_dialogbox.dart';
+import 'package:mentyour/screens/student_post_login/student_main/tabs/tests/take_test/take_test.dart';
+import 'package:mentyour/services/Firebase/firestore/firestore.dart';
+import 'package:mentyour/strings.dart';
 
 class studentTestCard extends StatefulWidget {
   const studentTestCard({

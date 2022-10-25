@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:nakshekadam/classes/language.dart';
-import 'package:nakshekadam/globals.dart';
+import 'package:mentyour/classes/language.dart';
+import 'package:mentyour/globals.dart';
 
 class LanguageDropDown extends StatefulWidget {
   const LanguageDropDown({Key? key, required this.parentSet}) : super(key: key);

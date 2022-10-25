@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_chat_types/flutter_chat_types.dart' as types;
 import 'package:flutter_firebase_chat_core/flutter_firebase_chat_core.dart';
-import 'package:nakshekadam/screens/chat_interface/chat.dart';
-import 'package:nakshekadam/services/Firebase/firestore/firestore.dart';
+import 'package:mentyour/screens/chat_interface/chat.dart';
+import 'package:mentyour/services/Firebase/firestore/firestore.dart';
 
 class UsersPage extends StatelessWidget {
   const UsersPage({super.key});

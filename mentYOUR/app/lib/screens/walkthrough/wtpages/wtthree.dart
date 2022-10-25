@@ -191,7 +191,7 @@ class WTThree extends StatelessWidget {
                         padding: EdgeInsets.only(top: screenHeight * 0.575),
                         // padding: EdgeInsets.only(top: screenHeight * 0.045),
                         child: Text(
-                          "A one-stop personalized guide to navigate all your career related confusions - \nNaksheKADAM",
+                          "A one-stop personalized guide to navigate all your career related confusions - \nMentYOUR",
                           style: TextStyle(
                             fontFamily: "DM Sans",
                             fontSize: screenWidth * 0.05,
