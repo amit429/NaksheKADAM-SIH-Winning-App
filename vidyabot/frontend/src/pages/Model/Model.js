@@ -105,7 +105,7 @@ function Model() {
       body: JSON.stringify({ query: text, uid: Store.uid }),
     };
     setLoading(true);
-    const response = await fetch("/query", requestoptions);
+    const response = await fetch("https://vidyaapi.loca.lt/query", requestoptions);
     const fulldata = await response.json();
     const data = fulldata.result;
     const sentiment = fulldata.sentiment;
@@ -114,7 +114,7 @@ function Model() {
     setpopupData(data.documents)
     setAnswer(data.documents[0].question); detectSentiment(sentiment)
     setLoading(false)
-    if (mic.lang === "en-IN") { setMeta(data.documents[0].answer); }
+    if (mic.lang === "en-IN") { setMeta(data.documents[0].answer_en); }
     else if (mic.lang === "hi-IN") { setMeta(data.documents[0].answer_hi); }
     else if (mic.lang === "mr-IN") { setMeta(data.documents[0].answer_mr); }
     else if (mic.lang === "bg-IN") { setMeta(data.documents[0].answer_bg); }
