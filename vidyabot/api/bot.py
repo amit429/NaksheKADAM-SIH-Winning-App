@@ -14,7 +14,8 @@ from dotenv import load_dotenv
 
 app = Flask(__name__)
 CORS(app)
-app.config["JSON_AS_ASCII"] = False
+# app.config["JSON_AS_ASCII"] = False
+app.json.ensure_ascii = False
 
 
 def get_sentiment(text):
@@ -50,7 +51,7 @@ def init_haystack():
     document_store = InMemoryDocumentStore()
     if os.path.exists("models/roberta-base-squad2"):
         reader = FARMReader(
-            model_name_or_path="models/tinyroberta-squad2",
+            model_name_or_path="models/roberta-base-squad2",
             use_gpu=False,
             context_window_size=500,
         )
@@ -60,7 +61,7 @@ def init_haystack():
             use_gpu=False,
             context_window_size=500,
         )
-        reader.save("models/tinyroberta-squad2")
+        reader.save("models/roberta-base-squad2")
     retriever = TfidfRetriever(document_store)
     return document_store, reader, retriever
 
@@ -148,14 +149,15 @@ def hello():
 
 
 if __name__ == "__main__":
-    translator = Translator()
     load_dotenv()
     OPEN_AI_KEY = os.getenv("OPEN_AI_KEY")
-    if OPEN_AI_KEY:
-        openai.api_key = OPEN_AI_KEY
-    else:
+    if OPEN_AI_KEY == "YOUR_KEY_HERE":
         print("OpenAI key not found")
         openai = None
+    else:
+        openai.api_key = OPEN_AI_KEY
+
+    translator = Translator()
     db = init_firebase()
     document_store, reader, retriever = init_haystack()
     docs_to_index = get_docs_to_index()

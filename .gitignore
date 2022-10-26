@@ -1,3 +1,4 @@
-frontend
 py39
 vidyabot/api/models
+mkey.json
+.env

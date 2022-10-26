@@ -47,13 +47,14 @@ def insert_log(db, uid, query, sentiment):
 def init_firebase():
     try:
         cred = credentials.Certificate(path_to_key)
-    except FileNotFoundError:
+    except Exception as e:
+        # print(e)
         print("Firebase key not found")
         return None
     firebase_admin.initialize_app(
         cred,
         {
-            "projectId": "nakshekadam2022",
+            "projectId": "mentyour2022",
         },
     )
     db = firestore.client()
