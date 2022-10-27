@@ -90,7 +90,7 @@ class _MainPageState extends State<MainPage> with TickerProviderStateMixin {
     return Scaffold(
       extendBodyBehindAppBar: true,
       key: scaffoldKey,
-      endDrawer: PreLoginCommonDrawer(),
+      endDrawer: const PreLoginCommonDrawer(),
       appBar: commonAppBar(
         screenWidth: screenWidth,
         screenHeight: screenHeight,
@@ -142,13 +142,13 @@ class _MainPageState extends State<MainPage> with TickerProviderStateMixin {
                                 transitionDuration:
                                     const Duration(milliseconds: 750),
                                 pageBuilder: (_, __, ___) =>
-                                    CounsellorDialogBox(
+                                    const CounsellorDialogBox(
                                   title: 'Vidya Bot',
                                 ),
                               ),
                             );
                           },
-                          child: Icon(
+                          child: const Icon(
                             Icons.chat,
                           ),
                         )
@@ -171,19 +171,19 @@ class _MainPageState extends State<MainPage> with TickerProviderStateMixin {
                                 transitionDuration:
                                     const Duration(milliseconds: 750),
                                 pageBuilder: (_, __, ___) =>
-                                    CounsellorDialogBox(
+                                    const CounsellorDialogBox(
                                   title: 'Vidya Bot',
                                 ),
                               ),
                             );
                           },
-                          icon: Icon(
+                          icon: const Icon(
                             Icons.chat,
                           ),
                         )
                   : null,
             ),
-            Divider(),
+            const Divider(),
             CustomNavigationBar(
               selectedColor: COLOR_THEME['bottomNavigationSelected'],
               currentIndex: _bottomNavIndex,
