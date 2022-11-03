@@ -10,7 +10,7 @@ Folders :
 - vidyabot
     - api
     - frontend
-    -csv
+    - csv
 
 
 ## Vidyabot Instructions
