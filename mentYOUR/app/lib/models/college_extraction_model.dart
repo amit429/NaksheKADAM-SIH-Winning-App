@@ -14,7 +14,7 @@ class CollegeExtractionModel {
   TextEditingController disciplineSearchController = TextEditingController();
 
   Future<void> fetchCollegeInfo() async {
-    var url = Uri.parse("https://mentyour.tushar725mittal.repl.co/colleges");
+    var url = Uri.parse("https://naksheKADAM.tushar725mittal.repl.co/colleges");
 
     final response = await http.get(url);
     print("response : $response");
