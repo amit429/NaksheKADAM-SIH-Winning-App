@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:mentyour/common_widgets/customPageRouter.dart';
-import 'package:mentyour/screens/walkthrough/wtpages/wttwo.dart';
-import 'package:mentyour/globals.dart';
+import 'package:mentYOUR/common_widgets/customPageRouter.dart';
+import 'package:mentYOUR/screens/walkthrough/wtpages/wttwo.dart';
+import 'package:mentYOUR/globals.dart';
 
 class BigTwoSmallOneBG extends StatelessWidget {
   const BigTwoSmallOneBG({Key? key}) : super(key: key);

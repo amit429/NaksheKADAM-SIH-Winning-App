@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/models/user_details_model.dart';
-import 'package:mentyour/screens/main/tabs/tests_page.dart/components/test_button.dart';
-import 'package:mentyour/screens/student_post_login/student_main/tabs/tests/components/student_test_card.dart';
-import 'package:mentyour/screens/student_post_login/student_main/tabs/tests/take_test/take_test.dart';
-import 'package:mentyour/strings.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/models/user_details_model.dart';
+import 'package:mentYOUR/screens/main/tabs/tests_page.dart/components/test_button.dart';
+import 'package:mentYOUR/screens/student_post_login/student_main/tabs/tests/components/student_test_card.dart';
+import 'package:mentYOUR/screens/student_post_login/student_main/tabs/tests/take_test/take_test.dart';
+import 'package:mentYOUR/strings.dart';
 
 class StudentTestsPage extends StatelessWidget {
   const StudentTestsPage({Key? key}) : super(key: key);

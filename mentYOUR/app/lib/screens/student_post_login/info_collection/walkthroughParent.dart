@@ -2,11 +2,11 @@ import 'package:dropdown_button2/dropdown_button2.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:mentyour/common_widgets/backgrounds/bigOneSmallOneBg.dart';
-import 'package:mentyour/common_widgets/backgrounds/bigThreeBg.dart';
-import 'package:mentyour/common_widgets/formfields.dart';
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/services/Firebase/FireAuth/fireauth.dart';
+import 'package:mentYOUR/common_widgets/backgrounds/bigOneSmallOneBg.dart';
+import 'package:mentYOUR/common_widgets/backgrounds/bigThreeBg.dart';
+import 'package:mentYOUR/common_widgets/formfields.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/services/Firebase/FireAuth/fireauth.dart';
 
 class WalkThroughParent extends StatelessWidget {
   const WalkThroughParent({Key? key}) : super(key: key);

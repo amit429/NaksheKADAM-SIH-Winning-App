@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:mentyour/common_widgets/backgrounds/bigThreeBg.dart';
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/screens/main/tabs/home_page/components/carousel.dart';
-import 'package:mentyour/screens/main/tabs/home_page/components/info_card.dart';
-import 'package:mentyour/screens/main/tabs/home_page/components/option_buttons/option_buttons.dart';
+import 'package:mentYOUR/common_widgets/backgrounds/bigThreeBg.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/screens/main/tabs/home_page/components/carousel.dart';
+import 'package:mentYOUR/screens/main/tabs/home_page/components/info_card.dart';
+import 'package:mentYOUR/screens/main/tabs/home_page/components/option_buttons/option_buttons.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);

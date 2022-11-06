@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/screens/main/tabs/counsellor_page/components/counsellor_dialogbox_button.dart';
-import 'package:mentyour/screens/student_post_login/student_main/tabs/counsellor_tabs/professional_counsellor.dart';
-import 'package:mentyour/strings.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/screens/main/tabs/counsellor_page/components/counsellor_dialogbox_button.dart';
+import 'package:mentYOUR/screens/student_post_login/student_main/tabs/counsellor_tabs/professional_counsellor.dart';
+import 'package:mentYOUR/strings.dart';
 
 class ExploreCounsellorSort extends StatefulWidget {
   const ExploreCounsellorSort({

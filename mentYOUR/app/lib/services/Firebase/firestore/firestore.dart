@@ -1,7 +1,7 @@
 import 'package:age_calculator/age_calculator.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:mentyour/services/Firebase/fireauth/fireauth.dart';
+import 'package:mentYOUR/services/Firebase/fireauth/fireauth.dart';
 
 final FirebaseFirestore firestore = FirebaseFirestore.instance;
 

@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:mentyour/screens/student_post_login/info_collection/components/student_parent_card.dart';
-import 'package:mentyour/screens/student_post_login/info_collection/parent_details_collection.dart';
-import 'package:mentyour/screens/student_post_login/info_collection/student_details_collection.dart';
-import 'package:mentyour/services/Firebase/firestore/firestore.dart';
+import 'package:mentYOUR/screens/student_post_login/info_collection/components/student_parent_card.dart';
+import 'package:mentYOUR/screens/student_post_login/info_collection/parent_details_collection.dart';
+import 'package:mentYOUR/screens/student_post_login/info_collection/student_details_collection.dart';
+import 'package:mentYOUR/services/Firebase/firestore/firestore.dart';
 
 class StudentParent extends StatelessWidget {
   const StudentParent({Key? key}) : super(key: key);

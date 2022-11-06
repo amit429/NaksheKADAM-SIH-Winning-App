@@ -3,8 +3,8 @@ import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/models/circular_chart_model.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/models/circular_chart_model.dart';
 
 class CircularChart extends StatelessWidget {
   const CircularChart({

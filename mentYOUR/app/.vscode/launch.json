@@ -5,18 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "mentyour_sih",
+            "name": "mentYOUR_sih",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "mentyour_sih (profile mode)",
+            "name": "mentYOUR_sih (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "mentyour_sih (release mode)",
+            "name": "mentYOUR_sih (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"

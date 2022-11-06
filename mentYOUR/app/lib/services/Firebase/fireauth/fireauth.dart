@@ -4,13 +4,13 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter_firebase_chat_core/flutter_firebase_chat_core.dart';
 import 'package:flutter_chat_types/flutter_chat_types.dart' as types;
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/models/user_details_model.dart';
-import 'package:mentyour/services/Firebase/fireAuth/google_auth.dart'
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/models/user_details_model.dart';
+import 'package:mentYOUR/services/Firebase/fireAuth/google_auth.dart'
     as google_auth;
-import 'package:mentyour/services/Firebase/firestore/firestore.dart';
-import 'package:mentyour/services/Firebase/push_notification/push_notification_service.dart';
-import 'package:mentyour/services/Firebase/realtime_database/realtime_database.dart';
+import 'package:mentYOUR/services/Firebase/firestore/firestore.dart';
+import 'package:mentYOUR/services/Firebase/push_notification/push_notification_service.dart';
+import 'package:mentYOUR/services/Firebase/realtime_database/realtime_database.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 final FirebaseAuth _auth = FirebaseAuth.instance;
@@ -31,12 +31,12 @@ Future<bool> signInWithGoogle(String name) async {
     initialData(getCurrentUser()!.displayName!);
   }
   if (result.user!.uid == _auth.currentUser!.uid) {
-    deviceFCMKeyOperations(add: true);
+    // deviceFCMKeyOperations(add: true);
   }
-  String id = await userDocumentReference().get().then(
-      (value) => value.data()!['role'] + value.data()!['question'].toString());
-  PushNotificationService.registerCustomNotificationListeners(
-      id: id, title: id, description: id);
+  // String id = await userDocumentReference().get().then(
+  //     (value) => value.data()!['role'] + value.data()!['question'].toString());
+  // PushNotificationService.registerCustomNotificationListeners(
+  //     id: id, title: id, description: id);
   userDocumentReference().update({
     'email': result.user!.email,
   });

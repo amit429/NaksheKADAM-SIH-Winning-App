@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:mentyour/common_widgets/signup_dialog.dart';
+import 'package:mentYOUR/common_widgets/signup_dialog.dart';
 
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/screens/main/tabs/counsellor_page/components/counsellor_dialogbox_button.dart';
-import 'package:mentyour/screens/student_post_login/student_main/tabs/counsellor_tabs/explore_counsellors/explore_experts_counsellors.dart';
-import 'package:mentyour/screens/student_post_login/student_main/tabs/counsellor_tabs/professional_counsellor.dart';
-import 'package:mentyour/services/Firebase/fireauth/fireauth.dart';
-import 'package:mentyour/strings.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/screens/main/tabs/counsellor_page/components/counsellor_dialogbox_button.dart';
+import 'package:mentYOUR/screens/student_post_login/student_main/tabs/counsellor_tabs/explore_counsellors/explore_experts_counsellors.dart';
+import 'package:mentYOUR/screens/student_post_login/student_main/tabs/counsellor_tabs/professional_counsellor.dart';
+import 'package:mentYOUR/services/Firebase/fireauth/fireauth.dart';
+import 'package:mentYOUR/strings.dart';
 
 class CounsellorDialogBox extends StatelessWidget {
   const CounsellorDialogBox({

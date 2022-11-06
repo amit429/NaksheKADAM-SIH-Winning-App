@@ -47,9 +47,9 @@ class DefaultFirebaseOptions {
     apiKey: 'AIzaSyCDcVc5OBdn6G7Eqn5sj0vZHWaK2KO070k',
     appId: '1:1035077222293:web:fbd72f6e68d3821ffc809c',
     messagingSenderId: '1035077222293',
-    projectId: 'mentyour2022',
-    authDomain: 'mentyour2022.firebaseapp.com',
-    storageBucket: 'mentyour2022.appspot.com',
+    projectId: 'mentYOUR2022',
+    authDomain: 'mentYOUR2022.firebaseapp.com',
+    storageBucket: 'mentYOUR2022.appspot.com',
     measurementId: 'G-SQLXWY80KR',
   );
 
@@ -57,29 +57,29 @@ class DefaultFirebaseOptions {
     apiKey: 'AIzaSyAaRZn1cCVpwi-iFyd541YzUSNp6knDR8s',
     appId: '1:1035077222293:android:43d638fd3961cdb2fc809c',
     messagingSenderId: '1035077222293',
-    projectId: 'mentyour2022',
-    storageBucket: 'mentyour2022.appspot.com',
+    projectId: 'mentYOUR2022',
+    storageBucket: 'mentYOUR2022.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyAwxsAXPMb9XFYMRad5xdlbj-7Hy7MeSIM',
     appId: '1:1035077222293:ios:6a1fff55556d8162fc809c',
     messagingSenderId: '1035077222293',
-    projectId: 'mentyour2022',
-    storageBucket: 'mentyour2022.appspot.com',
+    projectId: 'mentYOUR2022',
+    storageBucket: 'mentYOUR2022.appspot.com',
     androidClientId: '1035077222293-2g20trg8jqktcq79udsefqp1829goont.apps.googleusercontent.com',
     iosClientId: '1035077222293-1f04lefkfj2gv6d4kumroq6eb7bnk0nh.apps.googleusercontent.com',
-    iosBundleId: 'com.example.mentyour',
+    iosBundleId: 'com.example.mentYOUR',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyAwxsAXPMb9XFYMRad5xdlbj-7Hy7MeSIM',
     appId: '1:1035077222293:ios:6a1fff55556d8162fc809c',
     messagingSenderId: '1035077222293',
-    projectId: 'mentyour2022',
-    storageBucket: 'mentyour2022.appspot.com',
+    projectId: 'mentYOUR2022',
+    storageBucket: 'mentYOUR2022.appspot.com',
     androidClientId: '1035077222293-2g20trg8jqktcq79udsefqp1829goont.apps.googleusercontent.com',
     iosClientId: '1035077222293-1f04lefkfj2gv6d4kumroq6eb7bnk0nh.apps.googleusercontent.com',
-    iosBundleId: 'com.example.mentyour',
+    iosBundleId: 'com.example.mentYOUR',
   );
 }

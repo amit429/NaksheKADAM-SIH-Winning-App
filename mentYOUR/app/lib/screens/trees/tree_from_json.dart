@@ -2,9 +2,9 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 
-import 'package:mentyour/screens/trees/components/build_tree.dart';
-import 'package:mentyour/screens/trees/components/tree_json_text.dart';
-import 'package:mentyour/screens/trees/custom_tree_controller.dart';
+import 'package:mentYOUR/screens/trees/components/build_tree.dart';
+import 'package:mentYOUR/screens/trees/components/tree_json_text.dart';
+import 'package:mentYOUR/screens/trees/custom_tree_controller.dart';
 
 class TreeFromJson extends StatefulWidget {
   const TreeFromJson({

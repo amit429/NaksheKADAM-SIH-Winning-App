@@ -5,9 +5,9 @@
 // https://developers.google.com/open-source/licenses/bsd
 
 import 'package:flutter/material.dart';
-import 'package:mentyour/screens/trees/custom_build_nodes.dart';
-import 'package:mentyour/screens/trees/custom_tree_controller.dart';
-import 'package:mentyour/screens/trees/custom_tree_node.dart';
+import 'package:mentYOUR/screens/trees/custom_build_nodes.dart';
+import 'package:mentYOUR/screens/trees/custom_tree_controller.dart';
+import 'package:mentYOUR/screens/trees/custom_tree_node.dart';
 
 /// Widget that displays one [TreeNode] and its children.
 class NodeWidget extends StatefulWidget {

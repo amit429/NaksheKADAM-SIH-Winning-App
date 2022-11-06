@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/screens/student_post_login/student_main/tabs/tests/take_test/components/domain_wise_percentage.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/screens/student_post_login/student_main/tabs/tests/take_test/components/domain_wise_percentage.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class ScholarshipExpansionTile extends StatelessWidget {

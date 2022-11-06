@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:mentyour/screens/main/tabs/home_page/components/option_buttons/components/career_options_buttons/career_options_expansion_tiles.dart';
-import 'package:mentyour/screens/trees/components/tree_json_text.dart';
-import 'package:mentyour/screens/trees/tree_from_json.dart';
+import 'package:mentYOUR/screens/main/tabs/home_page/components/option_buttons/components/career_options_buttons/career_options_expansion_tiles.dart';
+import 'package:mentYOUR/screens/trees/components/tree_json_text.dart';
+import 'package:mentYOUR/screens/trees/tree_from_json.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/screens/main/tabs/home_page/components/option_buttons/components/career_options_buttons/career_options_info_card.dart';
-import 'package:mentyour/strings.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/screens/main/tabs/home_page/components/option_buttons/components/career_options_buttons/career_options_info_card.dart';
+import 'package:mentYOUR/strings.dart';
 
 class careerOptionsInfographicsAndText extends StatelessWidget {
   const careerOptionsInfographicsAndText({

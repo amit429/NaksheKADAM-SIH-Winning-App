@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:mentyour/models/college_extraction_model.dart';
-import 'package:mentyour/screens/main/main_page.dart';
-import 'package:mentyour/screens/main/tabs/college_page/college_page.dart';
-import 'package:mentyour/screens/trees/components/tree_json_text.dart';
-import 'package:mentyour/screens/trees/tree_from_json.dart';
-import 'package:mentyour/strings.dart';
+import 'package:mentYOUR/models/college_extraction_model.dart';
+import 'package:mentYOUR/screens/main/main_page.dart';
+import 'package:mentYOUR/screens/main/tabs/college_page/college_page.dart';
+import 'package:mentYOUR/screens/trees/components/tree_json_text.dart';
+import 'package:mentYOUR/screens/trees/tree_from_json.dart';
+import 'package:mentYOUR/strings.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
-import 'package:mentyour/globals.dart';
+import 'package:mentYOUR/globals.dart';
 
 class CareerOptionExpansionTiles extends StatelessWidget {
   const CareerOptionExpansionTiles({

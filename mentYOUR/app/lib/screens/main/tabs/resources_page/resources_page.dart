@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:mentyour/common_widgets/backgrounds/bigThreeBg.dart';
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/screens/main/tabs/home_page/components/carousel.dart';
-import 'package:mentyour/screens/main/tabs/home_page/components/info_card.dart';
-import 'package:mentyour/screens/main/tabs/home_page/components/option_buttons/option_buttons.dart';
-import 'package:mentyour/screens/main/tabs/resources_page/components/resource_card.dart';
-import 'package:mentyour/strings.dart';
+import 'package:mentYOUR/common_widgets/backgrounds/bigThreeBg.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/screens/main/tabs/home_page/components/carousel.dart';
+import 'package:mentYOUR/screens/main/tabs/home_page/components/info_card.dart';
+import 'package:mentYOUR/screens/main/tabs/home_page/components/option_buttons/option_buttons.dart';
+import 'package:mentYOUR/screens/main/tabs/resources_page/components/resource_card.dart';
+import 'package:mentYOUR/strings.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class ResourcesPage extends StatelessWidget {

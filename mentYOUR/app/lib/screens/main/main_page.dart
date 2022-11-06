@@ -1,19 +1,19 @@
 import 'package:custom_navigation_bar/custom_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
-import 'package:mentyour/common_widgets/backgrounds/bigOneSmallOneBg.dart';
-import 'package:mentyour/common_widgets/common_appbar/common_appbar.dart';
-import 'package:mentyour/common_widgets/common_appbar/components/language_dropdown.dart';
-import 'package:mentyour/common_widgets/drawer/drawer.dart';
-import 'package:mentyour/common_widgets/drawer/prelogin_drawer.dart';
-import 'package:mentyour/common_widgets/no_items.dart';
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/screens/main/tabs/college_page/college_page.dart';
-import 'package:mentyour/screens/main/tabs/counsellor_page/components/counsellor_card_dialog.dart';
-import 'package:mentyour/screens/main/tabs/counsellor_page/counsellor_page.dart';
-import 'package:mentyour/screens/main/tabs/home_page/home_page.dart';
-import 'package:mentyour/screens/main/tabs/resources_page/resources_page.dart';
-import 'package:mentyour/screens/main/tabs/tests_page.dart/test_page.dart';
+import 'package:mentYOUR/common_widgets/backgrounds/bigOneSmallOneBg.dart';
+import 'package:mentYOUR/common_widgets/common_appbar/common_appbar.dart';
+import 'package:mentYOUR/common_widgets/common_appbar/components/language_dropdown.dart';
+import 'package:mentYOUR/common_widgets/drawer/drawer.dart';
+import 'package:mentYOUR/common_widgets/drawer/prelogin_drawer.dart';
+import 'package:mentYOUR/common_widgets/no_items.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/screens/main/tabs/college_page/college_page.dart';
+import 'package:mentYOUR/screens/main/tabs/counsellor_page/components/counsellor_card_dialog.dart';
+import 'package:mentYOUR/screens/main/tabs/counsellor_page/counsellor_page.dart';
+import 'package:mentYOUR/screens/main/tabs/home_page/home_page.dart';
+import 'package:mentYOUR/screens/main/tabs/resources_page/resources_page.dart';
+import 'package:mentYOUR/screens/main/tabs/tests_page.dart/test_page.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({
@@ -90,7 +90,7 @@ class _MainPageState extends State<MainPage> with TickerProviderStateMixin {
     return Scaffold(
       extendBodyBehindAppBar: true,
       key: scaffoldKey,
-      endDrawer: const PreLoginCommonDrawer(),
+      endDrawer: PreLoginCommonDrawer(),
       appBar: commonAppBar(
         screenWidth: screenWidth,
         screenHeight: screenHeight,
@@ -142,13 +142,13 @@ class _MainPageState extends State<MainPage> with TickerProviderStateMixin {
                                 transitionDuration:
                                     const Duration(milliseconds: 750),
                                 pageBuilder: (_, __, ___) =>
-                                    const CounsellorDialogBox(
+                                    CounsellorDialogBox(
                                   title: 'Vidya Bot',
                                 ),
                               ),
                             );
                           },
-                          child: const Icon(
+                          child: Icon(
                             Icons.chat,
                           ),
                         )
@@ -171,19 +171,19 @@ class _MainPageState extends State<MainPage> with TickerProviderStateMixin {
                                 transitionDuration:
                                     const Duration(milliseconds: 750),
                                 pageBuilder: (_, __, ___) =>
-                                    const CounsellorDialogBox(
+                                    CounsellorDialogBox(
                                   title: 'Vidya Bot',
                                 ),
                               ),
                             );
                           },
-                          icon: const Icon(
+                          icon: Icon(
                             Icons.chat,
                           ),
                         )
                   : null,
             ),
-            const Divider(),
+            Divider(),
             CustomNavigationBar(
               selectedColor: COLOR_THEME['bottomNavigationSelected'],
               currentIndex: _bottomNavIndex,

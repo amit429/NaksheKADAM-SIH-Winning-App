@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:mentyour/common_widgets/customPageRouter.dart';
-import 'package:mentyour/screens/walkthrough/wtpages/wttwo.dart';
-import 'package:mentyour/globals.dart';
+import 'package:mentYOUR/common_widgets/customPageRouter.dart';
+import 'package:mentYOUR/screens/walkthrough/wtpages/wttwo.dart';
+import 'package:mentYOUR/globals.dart';
 
 class BigThreeBG extends StatelessWidget {
   const BigThreeBG({Key? key}) : super(key: key);
@@ -82,12 +82,15 @@ class BigThreeBG extends StatelessWidget {
               right: 0,
               left: 0,
               child: Container(
-                width: screenWidth * 0.8,
+                width: screenWidth * 0.3,
+                height: screenHeight * 0.05,
+                margin: EdgeInsets.all(screenWidth * 0.1),
                 decoration: const BoxDecoration(
                   // color: Colors.black,
                   image: DecorationImage(
-                    image: AssetImage('assets/images/naksheKADAM.png'),
-                    fit: BoxFit.fitWidth,
+                    image: AssetImage('assets/images/mentyour_logo_transparent.png'),
+                    fit: BoxFit.contain,
+                    scale: 0.1,
                   ),
                 ),
               ),

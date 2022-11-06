@@ -1,4 +1,4 @@
-import 'package:mentyour/services/Firebase/firestore/firestore.dart';
+import 'package:mentYOUR/services/Firebase/firestore/firestore.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mentyour/screens/trees/custom_tree_controller.dart';
-import 'package:mentyour/screens/trees/custom_tree_node.dart';
+import 'package:mentYOUR/screens/trees/custom_tree_controller.dart';
+import 'package:mentYOUR/screens/trees/custom_tree_node.dart';
 
 import 'custom_node_widget.dart';
 

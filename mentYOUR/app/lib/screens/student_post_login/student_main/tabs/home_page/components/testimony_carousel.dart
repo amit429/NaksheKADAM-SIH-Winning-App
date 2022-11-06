@@ -3,8 +3,8 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/screens/student_post_login/student_main/tabs/home_page/components/testimony_cards.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/screens/student_post_login/student_main/tabs/home_page/components/testimony_cards.dart';
 
 class TestimonyCarouselSlider extends StatefulWidget {
   const TestimonyCarouselSlider({

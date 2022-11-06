@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:mentyour/common_widgets/formfields.dart';
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/models/user_details_model.dart';
-import 'package:mentyour/screens/drawer/components/drawer_card_field.dart';
-import 'package:mentyour/screens/main/tabs/counsellor_page/components/counsellor_dialogbox_button.dart';
-import 'package:mentyour/screens/student_post_login/student_main/tabs/counsellor_tabs/components/custom_text_form_field.dart';
-import 'package:mentyour/services/Firebase/fireauth/fireauth.dart';
+import 'package:mentYOUR/common_widgets/formfields.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/models/user_details_model.dart';
+import 'package:mentYOUR/screens/drawer/components/drawer_card_field.dart';
+import 'package:mentYOUR/screens/main/tabs/counsellor_page/components/counsellor_dialogbox_button.dart';
+import 'package:mentYOUR/screens/student_post_login/student_main/tabs/counsellor_tabs/components/custom_text_form_field.dart';
+import 'package:mentYOUR/services/Firebase/fireauth/fireauth.dart';
 import 'package:readmore/readmore.dart';
 
 class DrawerUserInfoCard extends StatefulWidget {

@@ -1,4 +1,4 @@
-package com.example.mentyour
+package com.example.mentYOUR
 
 import io.flutter.embedding.android.FlutterActivity
 

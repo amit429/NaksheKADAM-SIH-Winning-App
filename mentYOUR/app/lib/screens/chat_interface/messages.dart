@@ -2,12 +2,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_firebase_chat_core/flutter_firebase_chat_core.dart';
-import 'package:mentyour/common_widgets/common_appbar/common_appbar.dart';
-import 'package:mentyour/common_widgets/common_appbar/components/language_dropdown.dart';
-import 'package:mentyour/common_widgets/drawer/drawer.dart';
-import 'package:mentyour/globals.dart';
+import 'package:mentYOUR/common_widgets/common_appbar/common_appbar.dart';
+import 'package:mentYOUR/common_widgets/common_appbar/components/language_dropdown.dart';
+import 'package:mentYOUR/common_widgets/drawer/drawer.dart';
+import 'package:mentYOUR/globals.dart';
 import 'package:flutter_chat_types/flutter_chat_types.dart' as types;
-import 'package:mentyour/screens/chat_interface/chat.dart';
+import 'package:mentYOUR/screens/chat_interface/chat.dart';
 
 class MessagesPage extends StatefulWidget {
   const MessagesPage({Key? key}) : super(key: key);

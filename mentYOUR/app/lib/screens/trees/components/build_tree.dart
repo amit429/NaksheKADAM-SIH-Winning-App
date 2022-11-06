@@ -1,9 +1,9 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:mentyour/screens/trees/components/to_tree_nodes.dart';
-import 'package:mentyour/screens/trees/custom_tree_controller.dart';
-import 'package:mentyour/screens/trees/custom_tree_view.dart';
+import 'package:mentYOUR/screens/trees/components/to_tree_nodes.dart';
+import 'package:mentYOUR/screens/trees/custom_tree_controller.dart';
+import 'package:mentYOUR/screens/trees/custom_tree_view.dart';
 
 /// Builds tree or error message out of the entered content.
 Widget buildTree(TextEditingController _textController,

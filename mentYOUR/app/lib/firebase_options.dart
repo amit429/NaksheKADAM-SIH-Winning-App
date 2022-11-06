@@ -72,6 +72,6 @@ class DefaultFirebaseOptions {
     storageBucket: 'mentyour2022.appspot.com',
     androidClientId: '1035077222293-2g20trg8jqktcq79udsefqp1829goont.apps.googleusercontent.com',
     iosClientId: '1035077222293-5lt0a551e60j04ino38023n1ocifksof.apps.googleusercontent.com',
-    iosBundleId: 'com.bitnuggets.mentyour',
+    iosBundleId: 'com.underdogs.mentyour',
   );
 }

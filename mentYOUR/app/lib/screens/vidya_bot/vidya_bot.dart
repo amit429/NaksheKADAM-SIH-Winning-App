@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/services/Firebase/fireauth/fireauth.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/services/Firebase/fireauth/fireauth.dart';
 
 import 'package:webview_flutter/webview_flutter.dart';
 
@@ -16,7 +16,7 @@ class _VidyaBotState extends State<VidyaBot> {
   late WebViewController webViewController;
   String uid = getCurrentUserId();
 
-  String link = "https://mentyour-vidya-bot.loca.lt";
+  String link = "https://mentYOUR-vidya-bot.loca.lt";
 
   @override
   void initState() {

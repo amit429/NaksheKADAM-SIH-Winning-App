@@ -1,17 +1,17 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
-import 'package:mentyour/common_widgets/backgrounds/bigOneSmallOneBg.dart';
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/models/cumulative_marks.dart';
-import 'package:mentyour/models/test_marks_model.dart';
-import 'package:mentyour/models/user_details_model.dart';
-import 'package:mentyour/screens/main/tabs/home_page/components/bottom_sheet/bottom_sheet.dart';
-import 'package:mentyour/screens/main/tabs/home_page/components/option_buttons/components/career_options_buttons/career_option_bottom_sheet.dart';
-import 'package:mentyour/screens/student_post_login/student_main/tabs/tests/take_test/components/circular_chart.dart';
-import 'package:mentyour/screens/student_post_login/student_main/tabs/tests/take_test/components/scholarshipExpansionTile.dart';
-import 'package:mentyour/screens/student_post_login/student_main/tabs/tests/take_test/components/testExpansionTiles.dart';
-import 'package:mentyour/services/Firebase/firestore/firestore.dart';
+import 'package:mentYOUR/common_widgets/backgrounds/bigOneSmallOneBg.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/models/cumulative_marks.dart';
+import 'package:mentYOUR/models/test_marks_model.dart';
+import 'package:mentYOUR/models/user_details_model.dart';
+import 'package:mentYOUR/screens/main/tabs/home_page/components/bottom_sheet/bottom_sheet.dart';
+import 'package:mentYOUR/screens/main/tabs/home_page/components/option_buttons/components/career_options_buttons/career_option_bottom_sheet.dart';
+import 'package:mentYOUR/screens/student_post_login/student_main/tabs/tests/take_test/components/circular_chart.dart';
+import 'package:mentYOUR/screens/student_post_login/student_main/tabs/tests/take_test/components/scholarshipExpansionTile.dart';
+import 'package:mentYOUR/screens/student_post_login/student_main/tabs/tests/take_test/components/testExpansionTiles.dart';
+import 'package:mentYOUR/services/Firebase/firestore/firestore.dart';
 import 'package:http/http.dart' as http;
 
 class DisplayTestResult extends StatefulWidget {
@@ -385,7 +385,7 @@ class _DisplayTestResultState extends State<DisplayTestResult> {
                             child: GestureDetector(
                               onTap: () async {
                                 var url = Uri.parse(
-                                    "https://mentyour.tushar725mittal.repl.co/colleges");
+                                    "https://mentYOUR.tushar725mittal.repl.co/colleges");
 
                                 final response = await http.get(url);
                                 print("response : $response");

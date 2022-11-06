@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:mentyour/screens/walkthrough/wtpages/wtone.dart';
-import 'package:mentyour/screens/walkthrough/wtpages/wtthree.dart';
-import 'package:mentyour/screens/walkthrough/wtpages/wttwo.dart';
+import 'package:mentYOUR/screens/walkthrough/wtpages/wtone.dart';
+import 'package:mentYOUR/screens/walkthrough/wtpages/wtthree.dart';
+import 'package:mentYOUR/screens/walkthrough/wtpages/wttwo.dart';
 
 class WalkThrough extends StatefulWidget {
   const WalkThrough({Key? key}) : super(key: key);

@@ -5,13 +5,13 @@ import 'package:flutter/services.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:mentyour/common_widgets/backgrounds/bigThreeBg.dart';
-import 'package:mentyour/common_widgets/customPageRouter.dart';
-import 'package:mentyour/common_widgets/formfields.dart';
-import 'package:mentyour/screens/walkthrough/wtpages/wttwo.dart';
-import 'package:mentyour/services/Firebase/fireauth/fireauth.dart';
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/services/Firebase/firestore/firestore.dart';
+import 'package:mentYOUR/common_widgets/backgrounds/bigThreeBg.dart';
+import 'package:mentYOUR/common_widgets/customPageRouter.dart';
+import 'package:mentYOUR/common_widgets/formfields.dart';
+import 'package:mentYOUR/screens/walkthrough/wtpages/wttwo.dart';
+import 'package:mentYOUR/services/Firebase/fireauth/fireauth.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/services/Firebase/firestore/firestore.dart';
 
 class Login extends StatefulWidget {
   const Login({Key? key}) : super(key: key);
@@ -266,6 +266,7 @@ class _LoginState extends State<Login> {
                                       bottom: screenHeight * 0.1),
                                   child: GestureDetector(
                                     onTap: (() async {
+                                      print('login w google tapped');
                                       if (await signInWithGoogle("")) {
                                         // bool isAdmin = (await checkAdmin())!;
                                         // if (isAdmin) {

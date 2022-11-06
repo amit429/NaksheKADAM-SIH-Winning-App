@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/models/upcoming_exams_model.dart';
-import 'package:mentyour/screens/main/tabs/home_page/components/option_buttons/components/upcoming_exams_button/components.dart/upcoming_exams_card_button.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/models/upcoming_exams_model.dart';
+import 'package:mentYOUR/screens/main/tabs/home_page/components/option_buttons/components/upcoming_exams_button/components.dart/upcoming_exams_card_button.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class UpcomingExamInfoCard extends StatelessWidget {

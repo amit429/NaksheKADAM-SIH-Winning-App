@@ -4,12 +4,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/screens/main/tabs/home_page/components/bottom_sheet/data_for_bottom_sheet.dart';
-import 'package:mentyour/screens/main/tabs/home_page/components/bottom_sheet/infographics.dart';
-import 'package:mentyour/screens/main/tabs/home_page/components/option_buttons/components/upcoming_exams_button/upcoming_exam_page.dart';
-import 'package:mentyour/screens/main/tabs/home_page/components/option_buttons/option_based_cards.dart';
-import 'package:mentyour/strings.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/screens/main/tabs/home_page/components/bottom_sheet/data_for_bottom_sheet.dart';
+import 'package:mentYOUR/screens/main/tabs/home_page/components/bottom_sheet/infographics.dart';
+import 'package:mentYOUR/screens/main/tabs/home_page/components/option_buttons/components/upcoming_exams_button/upcoming_exam_page.dart';
+import 'package:mentYOUR/screens/main/tabs/home_page/components/option_buttons/option_based_cards.dart';
+import 'package:mentYOUR/strings.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class CustomBottomSheet extends StatefulWidget {

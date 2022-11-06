@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mentyour/globals.dart';
+import 'package:mentYOUR/globals.dart';
 
 Card testButton(double screenHeight, double screenWidth, String buttontext) => Card(
       color: COLOR_THEME["bottomNavigation"],

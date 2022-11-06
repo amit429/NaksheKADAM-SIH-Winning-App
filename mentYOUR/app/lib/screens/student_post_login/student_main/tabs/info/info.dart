@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:mentyour/screens/main/tabs/home_page/components/info_card.dart';
-import 'package:mentyour/screens/main/tabs/home_page/components/option_buttons/option_buttons.dart';
+import 'package:mentYOUR/screens/main/tabs/home_page/components/info_card.dart';
+import 'package:mentYOUR/screens/main/tabs/home_page/components/option_buttons/option_buttons.dart';
 
 class InfoPage extends StatefulWidget {
   const InfoPage({Key? key}) : super(key: key);

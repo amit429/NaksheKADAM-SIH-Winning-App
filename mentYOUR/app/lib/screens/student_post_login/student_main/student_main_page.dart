@@ -1,23 +1,23 @@
 import 'package:custom_navigation_bar/custom_navigation_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:mentyour/screens/student_post_login/student_main/tabs/info/info.dart';
+import 'package:mentYOUR/screens/student_post_login/student_main/tabs/info/info.dart';
 
-import 'package:mentyour/services/Firebase/fireauth/fireauth.dart';
+import 'package:mentYOUR/services/Firebase/fireauth/fireauth.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
-import 'package:mentyour/common_widgets/backgrounds/bigOneSmallOneBg.dart';
-import 'package:mentyour/common_widgets/common_appbar/common_appbar.dart';
-import 'package:mentyour/common_widgets/common_appbar/components/language_dropdown.dart';
-import 'package:mentyour/common_widgets/drawer/drawer.dart';
-import 'package:mentyour/common_widgets/no_items.dart';
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/models/user_details_model.dart';
-import 'package:mentyour/screens/main/tabs/counsellor_page/counsellor_page.dart';
-import 'package:mentyour/screens/student_post_login/student_main/tabs/home_page/student_home_page.dart';
-import 'package:mentyour/screens/student_post_login/student_main/tabs/notifications/notifications.dart';
-import 'package:mentyour/screens/student_post_login/student_main/tabs/tests/student_tests.dart';
-import 'package:mentyour/services/Firebase/firestore/firestore.dart';
+import 'package:mentYOUR/common_widgets/backgrounds/bigOneSmallOneBg.dart';
+import 'package:mentYOUR/common_widgets/common_appbar/common_appbar.dart';
+import 'package:mentYOUR/common_widgets/common_appbar/components/language_dropdown.dart';
+import 'package:mentYOUR/common_widgets/drawer/drawer.dart';
+import 'package:mentYOUR/common_widgets/no_items.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/models/user_details_model.dart';
+import 'package:mentYOUR/screens/main/tabs/counsellor_page/counsellor_page.dart';
+import 'package:mentYOUR/screens/student_post_login/student_main/tabs/home_page/student_home_page.dart';
+import 'package:mentYOUR/screens/student_post_login/student_main/tabs/notifications/notifications.dart';
+import 'package:mentYOUR/screens/student_post_login/student_main/tabs/tests/student_tests.dart';
+import 'package:mentYOUR/services/Firebase/firestore/firestore.dart';
 
 class StudentMainPage extends StatefulWidget {
   const StudentMainPage({
@@ -165,7 +165,7 @@ class _StudentMainPageState extends State<StudentMainPage>
                               enableJavaScript: true,
                             ),
                             Uri.parse(
-                                "https://mentyour-vidya-bot.loca.lt?uid=$uid"));
+                                "https://mentYOUR-vidya-bot.loca.lt?uid=$uid"));
                       },
                       child: Icon(
                         Icons.chat,
@@ -187,7 +187,7 @@ class _StudentMainPageState extends State<StudentMainPage>
                         await launchUrl(
                             mode: LaunchMode.externalApplication,
                             Uri.parse(
-                                "https://mentyour-vidya-bot.loca.lt?uid=$uid"));
+                                "https://mentYOUR-vidya-bot.loca.lt?uid=$uid"));
                       },
                       icon: Icon(
                         Icons.chat,

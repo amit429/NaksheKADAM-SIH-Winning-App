@@ -4,9 +4,9 @@ import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'package:mentyour/common_widgets/backgrounds/bigTwoSmallOneBg.dart';
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/services/AadharOTP/otp/auth/otp_auth.dart';
+import 'package:mentYOUR/common_widgets/backgrounds/bigTwoSmallOneBg.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/services/AadharOTP/otp/auth/otp_auth.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class AadharLoginPage extends StatefulWidget {

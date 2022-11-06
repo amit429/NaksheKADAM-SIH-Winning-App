@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:mentyour/common_widgets/backgrounds/bigThreeBg.dart';
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/models/user_details_model.dart';
-import 'package:mentyour/screens/main/main_page.dart';
-import 'package:mentyour/screens/main/tabs/college_page/college_page.dart';
-import 'package:mentyour/screens/main/tabs/home_page/components/carousel.dart';
-import 'package:mentyour/screens/main/tabs/home_page/components/info_card.dart';
-import 'package:mentyour/screens/main/tabs/home_page/components/option_buttons/option_buttons.dart';
-import 'package:mentyour/screens/student_post_login/student_main/tabs/home_page/components/exam_not_given.dart';
-import 'package:mentyour/screens/student_post_login/student_main/tabs/home_page/components/play_yt_vid.dart';
-import 'package:mentyour/screens/student_post_login/student_main/tabs/home_page/components/testimony_carousel.dart';
-import 'package:mentyour/services/Firebase/firestore/firestore.dart';
+import 'package:mentYOUR/common_widgets/backgrounds/bigThreeBg.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/models/user_details_model.dart';
+import 'package:mentYOUR/screens/main/main_page.dart';
+import 'package:mentYOUR/screens/main/tabs/college_page/college_page.dart';
+import 'package:mentYOUR/screens/main/tabs/home_page/components/carousel.dart';
+import 'package:mentYOUR/screens/main/tabs/home_page/components/info_card.dart';
+import 'package:mentYOUR/screens/main/tabs/home_page/components/option_buttons/option_buttons.dart';
+import 'package:mentYOUR/screens/student_post_login/student_main/tabs/home_page/components/exam_not_given.dart';
+import 'package:mentYOUR/screens/student_post_login/student_main/tabs/home_page/components/play_yt_vid.dart';
+import 'package:mentYOUR/screens/student_post_login/student_main/tabs/home_page/components/testimony_carousel.dart';
+import 'package:mentYOUR/services/Firebase/firestore/firestore.dart';
 
 class StudentHomePage extends StatefulWidget {
   const StudentHomePage({Key? key}) : super(key: key);

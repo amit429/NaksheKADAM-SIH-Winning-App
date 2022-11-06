@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 
-import 'package:mentyour/models/colleges_model.dart';
+import 'package:mentYOUR/models/colleges_model.dart';
 import 'package:http/http.dart' as http;
 
 class CollegeExtractionModel {
@@ -14,7 +14,7 @@ class CollegeExtractionModel {
   TextEditingController disciplineSearchController = TextEditingController();
 
   Future<void> fetchCollegeInfo() async {
-    var url = Uri.parse("https://naksheKADAM.tushar725mittal.repl.co/colleges");
+    var url = Uri.parse("https://mentYOUR.tushar725mittal.repl.co/colleges");
 
     final response = await http.get(url);
     print("response : $response");
@@ -27,8 +27,8 @@ class CollegeExtractionModel {
 
   Future<void> filterColleges() async{
     filteredColleges.clear();
-    print("https://NaksheKADAM.rushour0.repl.co/colleges?Name of Institution=${instituteSearchController.text}&Programme=${programmeSearchController.text}&Name of Discipline=${disciplineSearchController.text}");
-    var url = Uri.parse("https://NaksheKADAM.rushour0.repl.co/colleges?Name of Institution=${instituteSearchController.text}&Programme=${programmeSearchController.text}&Name of Discipline=${disciplineSearchController.text}");
+    print("https://mentYOUR.rushour0.repl.co/colleges?Name of Institution=${instituteSearchController.text}&Programme=${programmeSearchController.text}&Name of Discipline=${disciplineSearchController.text}");
+    var url = Uri.parse("https://mentYOUR.rushour0.repl.co/colleges?Name of Institution=${instituteSearchController.text}&Programme=${programmeSearchController.text}&Name of Discipline=${disciplineSearchController.text}");
     final response = await http.get(url);
     print("response : $response");
     if (response.statusCode == 200) {

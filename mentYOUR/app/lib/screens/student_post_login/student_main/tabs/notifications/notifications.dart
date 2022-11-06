@@ -1,9 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:mentyour/screens/student_post_login/student_main/tabs/notifications/components.dart';
+import 'package:mentYOUR/screens/student_post_login/student_main/tabs/notifications/components.dart';
 
-import 'package:mentyour/services/Firebase/fireauth/fireauth.dart';
+import 'package:mentYOUR/services/Firebase/fireauth/fireauth.dart';
 
 class NotificationsPage extends StatefulWidget {
   const NotificationsPage({Key? key}) : super(key: key);

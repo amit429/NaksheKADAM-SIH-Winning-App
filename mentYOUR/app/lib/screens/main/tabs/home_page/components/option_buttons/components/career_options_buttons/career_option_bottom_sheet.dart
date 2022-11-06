@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/screens/main/tabs/home_page/components/option_buttons/components/career_options_buttons/career_options_infographics.dart';
-import 'package:mentyour/screens/main/tabs/home_page/components/bottom_sheet/infographics.dart';
-import 'package:mentyour/strings.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/screens/main/tabs/home_page/components/option_buttons/components/career_options_buttons/career_options_infographics.dart';
+import 'package:mentYOUR/screens/main/tabs/home_page/components/bottom_sheet/infographics.dart';
+import 'package:mentYOUR/strings.dart';
 
 class CareerOptionBottomSheet extends StatelessWidget {
   const CareerOptionBottomSheet({

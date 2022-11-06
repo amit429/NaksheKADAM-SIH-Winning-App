@@ -6,10 +6,10 @@ import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:http/http.dart' as http;
 
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/models/college_extraction_model.dart';
-import 'package:mentyour/models/colleges_model.dart';
-import 'package:mentyour/screens/main/tabs/college_page/college_info_card.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/models/college_extraction_model.dart';
+import 'package:mentYOUR/models/colleges_model.dart';
+import 'package:mentYOUR/screens/main/tabs/college_page/college_info_card.dart';
 
 class CollegeFilterPage extends StatefulWidget {
   const CollegeFilterPage({
@@ -35,7 +35,7 @@ class _CollegeFilterPageState extends State<CollegeFilterPage> {
   int ind = 0;
   bool isLoading = false;
   // Future<void> fetchCollegeInfo() async {
-  //   var url = Uri.parse("https://mentyour.tushar725mittal.repl.co/colleges");
+  //   var url = Uri.parse("https://mentYOUR.tushar725mittal.repl.co/colleges");
 
   //   final response = await http.get(url);
   //   print("response : $response");

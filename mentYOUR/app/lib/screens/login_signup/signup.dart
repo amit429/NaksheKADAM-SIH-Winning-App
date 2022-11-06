@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:mentyour/common_widgets/backgrounds/bigThreeBg.dart';
-import 'package:mentyour/common_widgets/formfields.dart';
-import 'package:mentyour/services/Firebase/fireauth/fireauth.dart';
-import 'package:mentyour/services/Firebase/firestore/firestore.dart';
+import 'package:mentYOUR/common_widgets/backgrounds/bigThreeBg.dart';
+import 'package:mentYOUR/common_widgets/formfields.dart';
+import 'package:mentYOUR/services/Firebase/fireauth/fireauth.dart';
+import 'package:mentYOUR/services/Firebase/firestore/firestore.dart';
 
 class Signup extends StatefulWidget {
   const Signup({Key? key}) : super(key: key);

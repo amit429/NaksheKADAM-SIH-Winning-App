@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
 import 'package:flutter_firebase_chat_core/flutter_firebase_chat_core.dart';
-import 'package:mentyour/classes/explore_person.dart';
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/screens/chat_interface/chat.dart';
-import 'package:mentyour/screens/main/tabs/counsellor_page/components/counsellor_dialogbox_button.dart';
-import 'package:mentyour/screens/student_post_login/student_main/tabs/counsellor_tabs/components/custom_text_form_field.dart';
-import 'package:mentyour/services/Firebase/fireauth/fireauth.dart';
-import 'package:mentyour/services/Firebase/firestore/firestore.dart';
+import 'package:mentYOUR/classes/explore_person.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/screens/chat_interface/chat.dart';
+import 'package:mentYOUR/screens/main/tabs/counsellor_page/components/counsellor_dialogbox_button.dart';
+import 'package:mentYOUR/screens/student_post_login/student_main/tabs/counsellor_tabs/components/custom_text_form_field.dart';
+import 'package:mentYOUR/services/Firebase/fireauth/fireauth.dart';
+import 'package:mentYOUR/services/Firebase/firestore/firestore.dart';
 import 'package:readmore/readmore.dart';
 import 'package:flutter_chat_types/flutter_chat_types.dart' as types;
 

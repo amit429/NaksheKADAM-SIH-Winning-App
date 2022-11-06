@@ -1,6 +1,6 @@
 {
-  "name": "mentyour_sih",
-  "short_name": "mentyour_sih",
+  "name": "mentYOUR_sih",
+  "short_name": "mentYOUR_sih",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#hexcode",

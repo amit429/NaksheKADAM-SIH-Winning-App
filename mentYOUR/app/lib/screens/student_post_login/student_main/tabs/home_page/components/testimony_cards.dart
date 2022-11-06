@@ -3,10 +3,10 @@ import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/screens/main/tabs/home_page/components/bottom_sheet/bottom_sheet.dart';
-import 'package:mentyour/screens/main/tabs/resources_page/components/resource_explore_button.dart';
-import 'package:mentyour/strings.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/screens/main/tabs/home_page/components/bottom_sheet/bottom_sheet.dart';
+import 'package:mentYOUR/screens/main/tabs/resources_page/components/resource_explore_button.dart';
+import 'package:mentYOUR/strings.dart';
 
 class TestimonyCard extends StatelessWidget {
   const TestimonyCard({

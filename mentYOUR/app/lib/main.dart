@@ -2,27 +2,28 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'package:mentyour/globals.dart';
-import 'package:mentyour/screens/chat_interface/messages.dart';
-import 'package:mentyour/screens/login_signup/aadhar_login.dart';
-import 'package:mentyour/screens/login_signup/login.dart';
-import 'package:mentyour/screens/login_signup/signup.dart';
-import 'package:mentyour/screens/main/main_page.dart';
-import 'package:mentyour/screens/splash/splash.dart';
-import 'package:mentyour/screens/student_post_login/info_collection/student_parent.dart';
-import 'package:mentyour/screens/student_post_login/student_main/student_main_page.dart';
-import 'package:mentyour/screens/student_post_login/student_main/tabs/tests/take_test/display_test_result.dart';
-import 'package:mentyour/screens/student_post_login/student_main/tabs/tests/take_test/take_test.dart';
-import 'package:mentyour/screens/verification&details/mobileVerification/phone_auth.dart';
-import 'package:mentyour/screens/verification&details/personal_details.dart';
-import 'package:mentyour/screens/vidya_bot/vidya_bot.dart';
-import 'package:mentyour/screens/walkthrough/walkthrough.dart';
-import 'package:mentyour/services/Firebase/firebase_options.dart';
-import 'package:mentyour/services/Firebase/push_notification/push_notification_service.dart';
+import 'package:mentYOUR/globals.dart';
+import 'package:mentYOUR/screens/chat_interface/messages.dart';
+import 'package:mentYOUR/screens/login_signup/aadhar_login.dart';
+import 'package:mentYOUR/screens/login_signup/login.dart';
+import 'package:mentYOUR/screens/login_signup/signup.dart';
+import 'package:mentYOUR/screens/main/main_page.dart';
+import 'package:mentYOUR/screens/splash/splash.dart';
+import 'package:mentYOUR/screens/student_post_login/info_collection/student_parent.dart';
+import 'package:mentYOUR/screens/student_post_login/student_main/student_main_page.dart';
+import 'package:mentYOUR/screens/student_post_login/student_main/tabs/tests/take_test/display_test_result.dart';
+import 'package:mentYOUR/screens/student_post_login/student_main/tabs/tests/take_test/take_test.dart';
+import 'package:mentYOUR/screens/verification&details/mobileVerification/phone_auth.dart';
+import 'package:mentYOUR/screens/verification&details/personal_details.dart';
+import 'package:mentYOUR/screens/vidya_bot/vidya_bot.dart';
+import 'package:mentYOUR/screens/walkthrough/walkthrough.dart';
+import 'package:mentYOUR/services/Firebase/firebase_options.dart';
+import 'package:mentYOUR/services/Firebase/push_notification/push_notification_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
+    name: 'mentYOUR',
     options: DefaultFirebaseOptions.currentPlatform,
   );
   await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);

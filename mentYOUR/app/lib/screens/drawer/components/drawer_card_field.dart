@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mentyour/globals.dart';
+import 'package:mentYOUR/globals.dart';
 
 drawerCardField(
         String title, String text, double screenHeight, double screenWidth) =>
