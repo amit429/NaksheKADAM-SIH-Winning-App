@@ -112,7 +112,7 @@ function Model() {
     console.log(data);
     console.log(sentiment);
     setpopupData(data.documents)
-    setAnswer(data.documents[0].question); detectSentiment(sentiment)
+    setAnswer(data.documents[0].question); //detectSentiment(sentiment)
     setLoading(false)
     if (mic.lang === "en-IN") { setMeta(data.documents[0].answer_en); }
     else if (mic.lang === "hi-IN") { setMeta(data.documents[0].answer_hi); }

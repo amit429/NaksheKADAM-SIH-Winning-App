@@ -14,7 +14,7 @@ const Home = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Welcome to NaksheKadam", "How can I help you"], // Strings to display
+      strings: ["Welcome to VidyaBOT", "How can I help you"], // Strings to display
       // Speed settings, try diffrent values until you get good results
       startDelay: 300,
       typeSpeed: 150,
